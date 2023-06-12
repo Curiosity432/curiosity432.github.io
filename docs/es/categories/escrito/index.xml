@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Escrito on Curiosity432 Blog</title>
+    <link>https://curiosity432.netlify.app/es/categories/escrito/</link>
+    <description>Recent content in Escrito on Curiosity432 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/es/categories/escrito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>¿Qué es la verdad?</title>
+      <link>https://curiosity432.netlify.app/es/posts/the-truth/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/posts/the-truth/</guid>
+      <description>¿Qué es la verdad? Un Pa y un Jo hablando.
+Jo - ¿Si solo hay 100 personas en el mundo y todas piensan igual, es decir, solo hay una opinión siginifica eso que solo hay una única verdad, que hay más y nos las conocen o que están equivocados y no lo saben? ¿La verdad es un asunto relativo al ser, exerno o la idea de un conjunto de individuos? ¿La verdad es lo que se establece, lo que se dice, lo que se inventa, lo que se crea, lo que existe o lo que es?</description>
+    </item>
+    
+    <item>
+      <title>Curiosity432, su significado</title>
+      <link>https://curiosity432.netlify.app/es/posts/curiosity432-meaning/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/posts/curiosity432-meaning/</guid>
+      <description>Significado del nombre Curiosity432</description>
+    </item>
+    
+  </channel>
+</rss>

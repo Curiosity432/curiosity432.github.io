@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Article on Curiosity432 Blog</title>
+    <link>https://curiosity432.netlify.app/es/categories/article/</link>
+    <description>Recent content in Article on Curiosity432 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/es/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurar gestor de contraseñas</title>
+      <link>https://curiosity432.netlify.app/es/posts/setup-password-manager/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/posts/setup-password-manager/</guid>
+      <description>Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
+No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
+Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).</description>
+    </item>
+    
+  </channel>
+</rss>

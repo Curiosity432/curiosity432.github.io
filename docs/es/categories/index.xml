@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Curiosity432 Blog</title>
+    <link>https://curiosity432.netlify.app/es/categories/</link>
+    <description>Recent content in Categories on Curiosity432 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Article</title>
+      <link>https://curiosity432.netlify.app/es/categories/article/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/categories/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artículo</title>
+      <link>https://curiosity432.netlify.app/es/categories/art%C3%ADculo/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/categories/art%C3%ADculo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explicación</title>
+      <link>https://curiosity432.netlify.app/es/categories/explicaci%C3%B3n/</link>
+      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/categories/explicaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Escrito</title>
+      <link>https://curiosity432.netlify.app/es/categories/escrito/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/categories/escrito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://curiosity432.netlify.app/es/categories/test/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/categories/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

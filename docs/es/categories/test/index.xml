@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Curiosity432 Blog</title>
+    <link>https://curiosity432.netlify.app/es/categories/test/</link>
+    <description>Recent content in Test on Curiosity432 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/es/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test de markdown</title>
+      <link>https://curiosity432.netlify.app/es/posts/0-test/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/posts/0-test/</guid>
+      <description>Este blog se está escribiendo utilizando el generador de estática web HUGO. Convierte los artículos escritos en formato markdown en una página web HTML. El formato markdown es sencillo, aquí hay una prueba:
+Para añadir metadatos tenemos que usar YAML que hace referencia al archivo config. --- author: &amp;#34;Testing&amp;#34; title: &amp;#34;Test markdown&amp;#34; date: &amp;#34;2021-01-01&amp;#34; tags: [&amp;#34;Test&amp;#34;] categories: [&amp;#34;Blog&amp;#34;] comments: false ShowToc: true TocOpen: true lang: es --- Texto con formato Títulos # Título H1 ## H2 Heading ### H3 Heading #### H4 Título #### H5 Título ##### H6 Título ###### H7 Título H1 Heading H2 Heading H3 Heading H4 Título H5 Título H6 Título H7 Título Tipo de letra *Texto en cursiva*, **texto en negrita**, ***en cursiva y negrita***.</description>
+    </item>
+    
+  </channel>
+</rss>

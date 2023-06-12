@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Curiosity432 Blog</title>
+    <link>https://curiosity432.netlify.app/tags/blog/</link>
+    <description>Recent content in Blog on Curiosity432 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Curiosity432 meaning</title>
+      <link>https://curiosity432.netlify.app/posts/curiosity432-meaning/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/posts/curiosity432-meaning/</guid>
+      <description>Meaning of Curiosity432</description>
+    </item>
+    
+  </channel>
+</rss>

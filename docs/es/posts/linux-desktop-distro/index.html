@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Distribuciones Linux con/sin escritorio | Curiosity432 Blog</title>
+<meta name="keywords" content="Computación, Linux" />
+<meta name="description" content="Las distribuciones de Linux y los entornos de escritorio más importantes">
+<meta name="author" content="Curiosity432">
+<link rel="canonical" href="https://curiosity432.netlify.app/es/posts/linux-desktop-distro/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<link rel="preload" href="/apple-touch-icon.png" as="image">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://curiosity432.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://curiosity432.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://curiosity432.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://curiosity432.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://curiosity432.netlify.app/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.112.3">
+<link rel="alternate" hreflang="en" href="https://curiosity432.netlify.app/posts/linux-desktop-distro/" />
+<link rel="alternate" hreflang="es" href="https://curiosity432.netlify.app/es/posts/linux-desktop-distro/" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Distribuciones Linux con/sin escritorio" />
+<meta property="og:description" content="Las distribuciones de Linux y los entornos de escritorio más importantes" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://curiosity432.netlify.app/es/posts/linux-desktop-distro/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-18T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-06-18T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Distribuciones Linux con/sin escritorio"/>
+<meta name="twitter:description" content="Las distribuciones de Linux y los entornos de escritorio más importantes"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://curiosity432.netlify.app/es/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Distribuciones Linux con/sin escritorio",
+      "item": "https://curiosity432.netlify.app/es/posts/linux-desktop-distro/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Distribuciones Linux con/sin escritorio",
+  "name": "Distribuciones Linux con\/sin escritorio",
+  "description": "Las distribuciones de Linux y los entornos de escritorio más importantes",
+  "keywords": [
+    "Computación", "Linux"
+  ],
+  "articleBody": "Introducción Para empezar en Linux lo primero que tienes que hacer antes de instalar el sistema operativo es decidir qué distribución de Linux (distro) quieres usar y con qué entorno de escritorio, estos son dos conceptos que si quieres sumergirte en Linux tienes que entender. Desde la creación del Kernel de Linux se necesitaron más componentes de software para instalar el sistema operativo como un agujero, para facilitar el proceso de instalación del kernel nacieron las distribuciones de Linux, piezas de software que vienen con un gestor de paquetes permitiendo instalar aplicaciones fácilmente sin hacer la instalación manualmente compilando desde el código fuente cada app.\nEn este artículo, vamos a hablar de estos dos conceptos: las distribuciones Linux y los entornos de escritorio Linux. La principal diferencia es que la distro es el sistema operativo con software para funcionar correctamente y el entorno de escritorio es el software para mejorar la experiencia del usuario con GUI^[GUI: Graphical User Interface].\nDistribuciones Linux Las distribuciones de Linux son básicamente la combinación de:\nNúcleo Linux. El núcleo del sistema operativo (SO). Herramientas y bibliotecas GNU, por lo que a veces se llama GNU/Linux. Gestor de paquetes, herramientas de software que se encargan de instalar, actualizar y eliminar aplicaciones en el ordenador. Los gestores de paquetes instalan paquetes de software desde repositorios en línea, para su uso es necesario escribir los comandos específicos en el terminal, por ejemplo, “pacman -Syu” para actualizar los paquetes en Arch Linux. Entornos de escritorio. La mayoría de las distribuciones de Linux incluyen un entorno de escritorio para facilitar el uso del sistema pero esto no es imprescindible por ser una distribución. Se pueden instalar varios DE (entornos de escritorio) en la misma distribución. La principal diferencia entre distribuciones es el gestor de paquetes utilizado, cada distro tiene su propio gestor de paquetes y están enfocadas a un tipo de uso: para ordenadores personales, para servidores, para smartphones, para dispositivos electrónicos (dispositivos embebidos, smartwatches, routers…).\nCuando aparece una nueva distro basada en una original con código bifurcado, se conoce como distro derivada y si la misma distro tiene diferentes entornos de escritorio para instalar, se conoce como sabores de la distribución.\nHay cientos de distribuciones de Linux pero la mayoría son distros derivadas basadas en:\nArch Linux =\u003e ArchCraft, ArcoLinux, Black Arch, EndeavourOS, Garuda Linux, Manjaro, XeroLinux\nBasadas en Debian =\u003e Ubuntu (ElementaryOS, Linux Mint, PopOS, Lubuntu, Xubuntu, Zorin), Kali Linux, MX-Linux, Parrot, PureOS, Tails, Raspberry OS, SparkyLinux\nRHEL (Red Hat Entriprise Linux) =\u003e Fedora, CentOS, AlmaLinux, RockyLinux, ClearOS\nGentoo =\u003e Sabayon Linux, Calculate Linux, Redcore Linux, Gentoo Studio\nSlackware =\u003e KateOS, SlixOS\nOtras distros: Void Linux\nDistros de Linux Gestores de paquetes Publicación Comunidad / Empresa DE por defecto Arch Linux - abs, aura, pacman - Rolling Release - Comunidad - Ninguno Clear Linux, swupd, Rolling Release, Intel, GNOME, etc. Debian / Ubuntu: apt, aptitude, dpkg: Soporte a largo plazo: Comunidad / Canonical: GNOME. Gentoo: Portage: Publicación continua: Comunidad: Ninguna. OpenSUSE: rpm, zypper: soporte a largo plazo: SUSE: ninguno RHEL / Fedora dnf, yum, yumex Soporte a largo plazo Red Hat (IBM) / Comunidad GNOME RPM dnf, yum, otros (up2date, urpmi, y zypp) Soporte a largo plazo Red Hat (IBM) Ninguno Slackware Slackpkg Soporte a largo plazo Comunidad Ninguno Cuando una distro Linux utiliza diferentes isos para instalarse con diferentes entornos de escritorio, estas distros se llaman sabores de la distro X. Por ejemplo: Ubuntu por defecto instala el entorno de escritorio GNOME, Kubuntu viene con KDE (K Desktop Environment), lo mismo con Fedora con GNOME y Fedora Spins (con KDE, XFCE, LXQT…), y muchas otras distribuciones.\nEntornos de escritorio Los entornos de escritorio (ED) son los programas que se ejecutan sobre el sistema operativo de un ordenador y que comparten una interfaz gráfica de usuario común, el propósito es ayudar al usuario a trabajar en el ordenador fácilmente. Sin embargo, la interfaz de línea de comandos tradicional tiene más características. Aquí hay una lista de ellos, KDE y GNOME son los escritorios más famosos.\nDE: KDE, GNOME, XFCE, Budgie, Deepin DE, Mate desktop, LXDE, Lumina\nEl entorno de escritorio incluye:\nAdministración del sistema / Sistema de inicio (systemd) Sistema de ventanas (Xorg (X11), Wayland) Gestor de ventanas Gestor de ventanas flotantes (budgie, cinnamon, cutefish, cwm, deepin, dusk, gnome, icewm, jwm, KDE plasma, leftwm, lxde, lxqt, openbox, ukui, xfce4) Gestor de ventanas en mosaico (awesome wm, bspwm, dwm, Herbstlufwm, i3 wm, qtile, spectrwm, wmderland, xmonad) Gestor de inicio de sesión (ssdm, lightdm, gdm, lxdm, ly) Menú (dmenu, rofi) Tema global (cursor, barra de tareas, tema, fondo de pantalla) Lanzador de aplicaciones (rofi) Aplicaciones GUI (navegador, compresor, gestor de archivos, visor de imágenes, reproductor de audio, reproductor de vídeo, visor de pdf, editor de texto, editor de oficina, grabadora) Una cosa a mencionar es que los entornos de escritorio no son necesarios para trabajar en el ordenador, sin embargo la distro de Linux es obligatoria. Para sustituir el DE puedes crear el tuyo propio instalando el software que quieras, ejemplo de sistema de flujo de trabajo: Awesome WM + dmenu + rofi.\nReferencias Qué es una distribución de Linux Distribuciones de Linux - Wikipedia Gestor de paquetes - Wikipedia Cronología de las distribuciones de Linux Distribuciones Linux - Interneto Distribuciones Linux - ArchiveOS Entorno de escritorio - Wikipedia Entorno de escritorio - ArchLinux Entorno de escritorio - Interneto ",
+  "wordCount" : "889",
+  "inLanguage": "es",
+  "datePublished": "2022-06-18T00:00:00Z",
+  "dateModified": "2022-06-18T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Curiosity432"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://curiosity432.netlify.app/es/posts/linux-desktop-distro/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Curiosity432 Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://curiosity432.netlify.app/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://curiosity432.netlify.app/es/" accesskey="h" title="Curiosity432 Blog (Alt + H)">
+                <img src="https://curiosity432.netlify.app/apple-touch-icon.png" alt="logo" aria-label="logo"
+                    height="35">Curiosity432 Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://curiosity432.netlify.app/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://curiosity432.netlify.app/es/archives/" title="Archivos">
+                    <span>Archivos</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/categories/" title="Categorías">
+                    <span>Categorías</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/tags/" title="Etiquetas">
+                    <span>Etiquetas</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/search/" title="Rebuscar">
+                    <span>Rebuscar</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/about/" title="Acerca">
+                    <span>Acerca</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://curiosity432.netlify.app/es/">Inicio</a>&nbsp;»&nbsp;<a href="https://curiosity432.netlify.app/es/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Distribuciones Linux con/sin escritorio
+    </h1>
+    <div class="post-description">
+      Las distribuciones de Linux y los entornos de escritorio más importantes
+    </div>
+    <div class="post-meta"><span title='2022-06-18 00:00:00 +0000 UTC'>junio 18, 2022</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Curiosity432&nbsp;|&nbsp;
+<ul class="i18n_list">Traducciones:
+    <li>
+        <a href="https://curiosity432.netlify.app/posts/linux-desktop-distro/">English</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Tabla de Contenidos</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#introducci%c3%b3n" aria-label="Introducción">Introducción</a></li>
+                <li>
+                    <a href="#distribuciones-linux" aria-label="Distribuciones Linux">Distribuciones Linux</a></li>
+                <li>
+                    <a href="#entornos-de-escritorio" aria-label="Entornos de escritorio">Entornos de escritorio</a></li>
+                <li>
+                    <a href="#referencias" aria-label="Referencias">Referencias</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="introducción">Introducción<a hidden class="anchor" aria-hidden="true" href="#introducción">#</a></h2>
+<p>Para empezar en Linux lo primero que tienes que hacer antes de instalar el sistema operativo es decidir qué distribución de Linux (distro) quieres usar y con qué entorno de escritorio, estos son dos conceptos que si quieres sumergirte en Linux tienes que entender. Desde la creación del Kernel de Linux se necesitaron más componentes de software para instalar el sistema operativo como un agujero, para facilitar el proceso de instalación del kernel nacieron las distribuciones de Linux, piezas de software que vienen con un gestor de paquetes permitiendo instalar aplicaciones fácilmente sin hacer la instalación manualmente compilando desde el código fuente cada app.</p>
+<p>En este artículo, vamos a hablar de estos dos conceptos: las distribuciones Linux y los entornos de escritorio Linux. La principal diferencia es que la distro es el sistema operativo con software para funcionar correctamente y el entorno de escritorio es el software para mejorar la experiencia del usuario con GUI^[GUI: Graphical User Interface].</p>
+<h2 id="distribuciones-linux">Distribuciones Linux<a hidden class="anchor" aria-hidden="true" href="#distribuciones-linux">#</a></h2>
+<p>Las distribuciones de Linux son básicamente la combinación de:</p>
+<ul>
+<li><strong>Núcleo Linux</strong>. El núcleo del sistema operativo (SO).</li>
+<li><strong>Herramientas y bibliotecas GNU</strong>, por lo que a veces se llama GNU/Linux.</li>
+<li><strong>Gestor de paquetes</strong>, herramientas de software que se encargan de instalar, actualizar y eliminar aplicaciones en el ordenador. Los gestores de paquetes instalan paquetes de software desde repositorios en línea, para su uso es necesario escribir los comandos específicos en el terminal, por ejemplo, &ldquo;pacman -Syu&rdquo; para actualizar los paquetes en Arch Linux.</li>
+<li><strong>Entornos de escritorio</strong>. La mayoría de las distribuciones de Linux incluyen un entorno de escritorio para facilitar el uso del sistema pero esto no es imprescindible por ser una distribución. Se pueden instalar varios DE (entornos de escritorio) en la misma distribución.</li>
+</ul>
+<p>La principal diferencia entre distribuciones es el gestor de paquetes utilizado, cada distro tiene su propio gestor de paquetes y están enfocadas a un tipo de uso: para ordenadores personales, para servidores, para smartphones, para dispositivos electrónicos (dispositivos embebidos, smartwatches, routers&hellip;).</p>
+<p>Cuando aparece una nueva distro basada en una original con código bifurcado, se conoce como distro derivada y si la misma distro tiene diferentes entornos de escritorio para instalar, se conoce como sabores de la distribución.</p>
+<p>Hay cientos de distribuciones de Linux pero la mayoría son distros derivadas basadas en:</p>
+<ul>
+<li>
+<p>Arch Linux =&gt; ArchCraft, ArcoLinux, Black Arch, EndeavourOS, Garuda Linux, Manjaro, XeroLinux</p>
+</li>
+<li>
+<p>Basadas en Debian =&gt; Ubuntu (ElementaryOS, Linux Mint, PopOS, Lubuntu, Xubuntu, Zorin), Kali Linux, MX-Linux, Parrot, PureOS, Tails, Raspberry OS, SparkyLinux</p>
+</li>
+<li>
+<p>RHEL (Red Hat Entriprise Linux) =&gt; Fedora, CentOS, AlmaLinux, RockyLinux, ClearOS</p>
+</li>
+<li>
+<p>Gentoo =&gt; Sabayon Linux, Calculate Linux, Redcore Linux, Gentoo Studio</p>
+</li>
+<li>
+<p>Slackware =&gt; KateOS, SlixOS</p>
+</li>
+<li>
+<p>Otras distros: Void Linux</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Distros de Linux</th>
+<th>Gestores de paquetes</th>
+<th>Publicación</th>
+<th>Comunidad / Empresa</th>
+<th>DE por defecto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arch Linux - abs, aura, pacman - Rolling Release - Comunidad - Ninguno</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Clear Linux, swupd, Rolling Release, Intel, GNOME, etc.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Debian / Ubuntu: apt, aptitude, dpkg: Soporte a largo plazo: Comunidad / Canonical: GNOME.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Gentoo: Portage: Publicación continua: Comunidad: Ninguna.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>OpenSUSE: rpm, zypper: soporte a largo plazo: SUSE: ninguno</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RHEL / Fedora</td>
+<td>dnf, yum, yumex</td>
+<td>Soporte a largo plazo</td>
+<td>Red Hat (IBM) / Comunidad</td>
+<td>GNOME</td>
+</tr>
+<tr>
+<td>RPM</td>
+<td>dnf, yum, otros (up2date, urpmi, y zypp)</td>
+<td>Soporte a largo plazo</td>
+<td>Red Hat (IBM)</td>
+<td>Ninguno</td>
+</tr>
+<tr>
+<td>Slackware Slackpkg Soporte a largo plazo Comunidad Ninguno</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Cuando una distro Linux utiliza diferentes isos para instalarse con diferentes entornos de escritorio, estas distros se llaman sabores de la distro X. Por ejemplo: Ubuntu por defecto instala el entorno de escritorio GNOME, Kubuntu viene con KDE (K Desktop Environment), lo mismo con Fedora con GNOME y Fedora Spins (con KDE, XFCE, LXQT&hellip;), y muchas otras distribuciones.</p>
+<h2 id="entornos-de-escritorio">Entornos de escritorio<a hidden class="anchor" aria-hidden="true" href="#entornos-de-escritorio">#</a></h2>
+<ul>
+<li>Los entornos de escritorio (ED) son los programas que se ejecutan sobre el sistema operativo de un ordenador y que comparten una interfaz gráfica de usuario común, el propósito es ayudar al usuario a trabajar en el ordenador fácilmente. Sin embargo, la interfaz de línea de comandos tradicional tiene más características.</li>
+</ul>
+<p>Aquí hay una lista de ellos, KDE y GNOME son los escritorios más famosos.</p>
+<ul>
+<li>
+<p>DE: KDE, GNOME, XFCE, Budgie, Deepin DE, Mate desktop, LXDE, Lumina</p>
+</li>
+<li>
+<p>El entorno de escritorio incluye:</p>
+<ul>
+<li>Administración del sistema / Sistema de inicio (systemd)</li>
+<li>Sistema de ventanas (Xorg (X11), Wayland)</li>
+<li>Gestor de ventanas
+<ul>
+<li>Gestor de ventanas flotantes (budgie, cinnamon, cutefish, cwm, deepin, dusk, gnome, icewm, jwm, KDE plasma, leftwm, lxde, lxqt, openbox, ukui, xfce4)</li>
+<li>Gestor de ventanas en mosaico (awesome wm, bspwm, dwm, Herbstlufwm, i3 wm, qtile, spectrwm, wmderland, xmonad)</li>
+</ul>
+</li>
+<li>Gestor de inicio de sesión (ssdm, lightdm, gdm, lxdm, ly)</li>
+<li>Menú (dmenu, rofi)</li>
+<li>Tema global (cursor, barra de tareas, tema, fondo de pantalla)</li>
+<li>Lanzador de aplicaciones (rofi)</li>
+<li>Aplicaciones GUI (navegador, compresor, gestor de archivos, visor de imágenes, reproductor de audio, reproductor de vídeo, visor de pdf, editor de texto, editor de oficina, grabadora)</li>
+</ul>
+</li>
+</ul>
+<p>Una cosa a mencionar es que los entornos de escritorio no son necesarios para trabajar en el ordenador, sin embargo la distro de Linux es obligatoria. Para sustituir el DE puedes crear el tuyo propio instalando el software que quieras, ejemplo de sistema de flujo de trabajo: Awesome WM + dmenu + rofi.</p>
+<h2 id="referencias">Referencias<a hidden class="anchor" aria-hidden="true" href="#referencias">#</a></h2>
+<ul>
+<li><a href="https://itsfoss.com/what-is-linux-distribution/">Qué es una distribución de Linux</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Linux_distribution">Distribuciones de Linux - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Package_manager">Gestor de paquetes - Wikipedia</a></li>
+<li><a href="https://upload.wikimedia.org/wikipedia/commons/b/b5/Linux_Distribution_Timeline_21_10_2021.svg">Cronología de las distribuciones de Linux</a></li>
+<li><a href="https://raindrop.io/Interneto/linux-distros-19045213">Distribuciones Linux - Interneto</a></li>
+<li><a href="https://archiveos.org/linux/">Distribuciones Linux - ArchiveOS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Desktop_environment">Entorno de escritorio - Wikipedia</a></li>
+<li><a href="https://wiki.archlinux.org/title/Desktop_environment">Entorno de escritorio - ArchLinux</a></li>
+<li><a href="https://raindrop.io/Interneto/desktop-enviroment-23500404">Entorno de escritorio - Interneto</a></li>
+</ul>
+
+
+  </div>
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://curiosity432.netlify.app/es/tags/computaci%C3%B3n/">Computación</a></li>
+      <li><a href="https://curiosity432.netlify.app/es/tags/linux/">Linux</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://curiosity432.netlify.app/es/posts/setup-password-manager/">
+    <span class="title">« Página anterior</span>
+    <br>
+    <span>Configurar gestor de contraseñas</span>
+  </a>
+  <a class="next" href="https://curiosity432.netlify.app/es/posts/linux-intro/">
+    <span class="title">Página siguiente »</span>
+    <br>
+    <span>Introducción a Linux</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://curiosity432.netlify.app/es/">Curiosity432 Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copiar';
+
+        function copyingDone() {
+            copybutton.innerText = '¡copiado!';
+            setTimeout(() => {
+                copybutton.innerText = 'copiar';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

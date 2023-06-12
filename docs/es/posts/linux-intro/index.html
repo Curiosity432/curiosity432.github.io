@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Introducción a Linux | Curiosity432 Blog</title>
+<meta name="keywords" content="Computación" />
+<meta name="description" content="Linux para principiantes">
+<meta name="author" content="Curiosity432">
+<link rel="canonical" href="https://curiosity432.netlify.app/es/posts/linux-intro/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<link rel="preload" href="/apple-touch-icon.png" as="image">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://curiosity432.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://curiosity432.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://curiosity432.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://curiosity432.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://curiosity432.netlify.app/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.112.3">
+<link rel="alternate" hreflang="es" href="https://curiosity432.netlify.app/es/posts/linux-intro/" />
+<link rel="alternate" hreflang="en" href="https://curiosity432.netlify.app/posts/linux-intro/" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Introducción a Linux" />
+<meta property="og:description" content="Linux para principiantes" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://curiosity432.netlify.app/es/posts/linux-intro/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-18T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2022-06-18T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Introducción a Linux"/>
+<meta name="twitter:description" content="Linux para principiantes"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://curiosity432.netlify.app/es/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Introducción a Linux",
+      "item": "https://curiosity432.netlify.app/es/posts/linux-intro/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Introducción a Linux",
+  "name": "Introducción a Linux",
+  "description": "Linux para principiantes",
+  "keywords": [
+    "Computación"
+  ],
+  "articleBody": "Breve introducción En este artículo voy a hablar acerca de Linux y dar una visión amplia de este concepto, ya que suele ser un tema un tanto técnico y suele haber confusiones.\nDe forma general Linux es un sistem operativo, no voy a entrar en detalle en el concepto de este término para no hacer pesado este artículo pero en sí es el software fundamental para usar un dispositivo, ya sea ordenador, tablet móvil o cualquier dispositvo que cuente con una pantalla electrónica (televisores, impresoras con pantalla, microondas con pantalla, máquinas de bebida, etc). Hoy en día casi cualquier dispositvo electrónico cuenta con un sistema operativo integrado, lo que ocurre es que el sistema operativo para una placa de inducción es mucho más sencillo que el de un computador personal o móvil.\nPara una placa de inducción solo se necesita configurar el botón (encendido, apagado), botón cambiar potencia (0 a 9) e indicar la posición de la placa, es un sistema operativo muy básico programada a bajo nivel (con funcionamiento directo a la máquina). Sin embargo en un PC hay muchos dispositivos integrados y muchas más tareas que congregar, es un sistema operativo bastante más complejo con distintas capas de funcionamiento.\nPor lo general cuando preguntas a la gente ‘¿Qué sistema operativo usas en tu ordenador?’ la mayoría responderá Windows (75% en PC) o macOS (15 % en PC), ya que son los dos SO (Sistemas operativos) más usados a nivel personal debido ya que vienen preinstalados de fábrica, Windows viene con la mayoría de marcas de portátiles y PC de escritorio montados, mientras macOS viene en los ordenadores de Apple. Lo mismo pasa con los móviles la mayoría vienen con versiones de Android y los de Apple (28 % usuarios de móvil) con iOS. Los porcentajes son en computadoras: 77% Windows, 17% macOS, 6% otros; mientras en móviles 72% Google, 27% iOS, 1% otros.\nSin embargo hay otro SO mucho más usado en cómputo total y que la gente no conoce tanto, este es Linux (GNU/Linux concretamente). ¿Y cómo es posible que sea más usado y menos conocido? Pues la respuesta es porque es el SO más usado en servidores, es decir el software predominante en las computadoras que prestan servicio a internet y hay mucho más número de servidores que de dispositivos que reciben servicio. En el caso de servidores, más del 90% son Linux, esto se debe a que los servidores son computadoras sin pantalla que para funcianor solo precisan de la terminal de comandos, los comandos de Linux están más estandarizados, son más compatibles para un entorno web y el software es gratuito de base.\nEn cambio a nivel de usuario como ordenador personal (PC) no supera el 7% y en el caso de móviles Android es un SO de código abierto basado en Linux pero perteneciente a Google.\nHay mucho más sistemas operativos pero estos tres son los más grandes y potentes. A pesar de ser usados para realizar tareas similares, entre ellos hay grandes diferencias. Windows es un software privativo perteneciente a Microsoft, macOS (OS X) es privativo de la compañía Apple y Linux se basa en la filosofía de código abierto y libre, que no implica gratuito.\nHablemos de Linux A Linux se le conoce como un sistema operativo pero estrictamente hablando es el núcleo o kernel del SO que se comunica con el resto programas e interactúa con el hardware. Su nombre completo es GNU/Linux. La combinación del nombre se debe GNU (GNU’s Not Unix! nombre autoreferenciado) proyecto creado por Richard Stallman (estudiante del MIT) en los años 80 con el objetivo de crear un SO de código abierto y libre que remplazase UNIX el SO de la época qu era privativo y de pago, mientras Linux proviene de Linus Torvalds quien contribuyó de manera inicial compartiendo el código de un Kernel de un SO con el proyecto GNU.\nEl 27 de septiembre de 1983 Richard Stallman anunción el proyecto GNU, proyecto para promover el control y libertad del uso de las computadoras y de la creación de software libre. Ocho años más tarde, el 17 de septiembre de 1991 Linus Torvalds tras 9 meses de trabajo contribuyó con el código escrito para el kernel de el sistema operativo GNU. En ese momento se considera el nacimiento del Linux o concretamente del Kernel de Linux basado en GNU.\nAl igual que a Microsoft se le asocia con su fundador Bill Gates, a Apple con Steve Jobs, a Linux se le asocia con dos personas Linus Torvalds (creador del Kernel de Linux) y Richard Stallman (creador del proyecto GNU). Ahora la principal diferencia de Linux frente a Windows y macOS, es su filosofía de trabajo. El sistema operativo de Linux debe cumplir principalmente la regla de código abierto con diferentes licencias de distribución aunque mayoritariamente se ofrece de manera gratuita, a lo que se conoce como FOSS (Free and Open Source Software). Ahora como Linux es solo el Kernel para poder tener el resto de partes que completen el sistema operativo surgen las distribuciones de Linux.\nDistros de Linux Si quisiéramos montar un sistema operativo de cero personalizable tendríamos que configurar todo el software para hacer funcionar ese hardware, en el caso de Linux para un PC tendrías que configurar el Kernel y el resto del software para ese ordenador. Por eso a lo largo del tiempo se han ido desarrollando lo que se conoce como distribuciones de Linux, sistemas operativos que facilitan el uso e instalación del sistema operativo al usuario. Las distros usan el kernel de Linux añadiendo un instaldor de paquetes, y pueden venir con software preinstalado para su uso directo.\nLa distribuciones suelen ser de código abierto por tanto ocurre que los desarrollados reutilizan código y las distros van derivando. Cuando surge una nueva distro basada en una original, es decir se crea una rama en el código, se le conoce como distro derivada y si una misma distro tiene distintos entornos para instalar se le conoce como sabores de la distribución. Hoy en día existen cientos de distribuciones de Linux pero la mayoría derivan originalmente de un puñado pequeño.\nDebian. Debian es de las distros más antigua de 1993. De esta derivan: Ubuntu (ElementaryOS, Linux Mint, KDE Neon, PopOS, Lubuntu, Xubuntu, Zorin), MX-Linux, Parrot, PureOS, Tails, Raspberry, Moodle… Arch Linux creada en 2002, de la cual derivan ArchCraft, ArcoLinux, Artix, Black Arch, Garuda Linux, Hyperbola, Manjaro… Red Hat Linux (Fedora, Mandrake, Slafish OS, Cent OS, Mandriva (Mageia)) Gentoo creada en el año 2000. Linux from Scratch, un instalador que permite instalar Linux desde cero, lanzada en el año 1999. Slackware, la primera distro lanzada en el año 1992. Suse (Open Suse, Gecko Linux), lanzada en 1996. Distros independientes: Nix OS (de 2003), KaOS (de KDE), Minimal Linux Live… Además hay distros de Linux específicas para servidores: Ubuntu Server, Debian, OpenSuse, Fedora Server; o distros especificas como: ZeroShell, ClearLinux (de Intel), OviOS, LTSP. Y para smartwatch (PineTime, Asteroid) o móviles (Android).\nLas distros más usadas son basadas en Debian, en Arch y en Red Hat (Fedora). Y la principal diferencia es el instalador de paquetes que usan, el software encargado de facilitar la instalación de aplicaciones.\nDistro Caracterśiticas Instalador de paquetes Debian (Ubuntu, Linuix Mint) Distro estable de por vida, con 4 años de actualizaciones en seguridad apt, dpkg Red hat Linux (Fedora) Actualizado por versiones, más estable dnf, yum Arch Linux (ArchCraft, ArcoLinux, Black Arch, Garuda, Manjaro) Actualización continua (posible inestable), repositorio de software de la comunidad AUR pacman Según el nivel de dificultad:\nPara principiantes: basadas en Debian con sistema presintalado (Linux Mint, ElementaryOS, Ubuntu, Manjaro) Para usuarios medios: basadas en Arch con entorno preinstalado (Garuda Linux, ArcoLinux) o de Red Hat (Fedora) Para usuarios avanzados: Arch Linux (ejecutando scripts o escribiendo comandos), Slackware o Gentoo Ubuntu y Linx Mint (basadas en Debian) son muy intuitivas de usar, vienen el sistema operativo configurado con un entorno de escritorio preinstalado y un instalador de aplicaciones. Sin embargo otras distros solo contienen el Kernel con el instalador de paquetes y una terminal de comandos para realizar cualquier cambio, sin interfaz gráfica donde solo funciona el teclado.\nEn el caso de Arch Linux es para usuarios algo más avanzados, es necesario saber usar la terminal para poder instalar y configurar el sistema operativo a tu gusto, o también copiar y pegar los comandos de la guía de instalación de Arch Linux. La forma clásica de configurar Arch es escribiendo los comandos en la terminal aunque en las nuevas versiones se puede hacer seleccionando un listado de opciones tras ejecutar “archinstall” o ejecutando un script desde un servidor externo o en local. Las tres hacen uso de la terminal de comandos, elemento que le da instrucciones al sistema operativo.\nEntre ellos yo estoy usando ahora ArcoLinux que cuenta con multitud de isos con distintos niveles para instalar enfocadas a enseñar al usuario y facilitar la instalación de Arch. Además Arch tiene la ventaja de que funciona siempre en la última versión, eso sí sacrificando un poco de estabilidad y cuenta con una gran comunidad activa. Y otras que recomiendo Fedora o Manjaro.\nInstalar software en Linux Ahora qué programas necesitamos para montar nuestro propio sistema operativo, pues principalmente:\nEl núcleo del sistema Iniciador del sistema: systemd, dinit, runit, upstart, finit. Controlador de drivers: bluetooth, wifi, impresora, procesador, tarjeta gráfica. Entorno de escritorio: KDE, GNOME, sway, bspwm, i3 Apps integradas: gestor de inicio, gestor de ventanas, escritorio personalizado (fondos, iconos, tipo de letra) Apps básicas: terminal, gestor de archivos, navegador, reproductor, editor, utilidades. Cuando te adentras en Linux descubres que todo es configurable y entiendes más profundamente como funciona un equipo internamente.\nAdemás entiendes que cada distribución precisa de un gestor de paquetes para poder instalar los programas y que la consola (terminal de comandos) cobra mucha más importancia de la que creías. Conocer los comandos de terminal y manejar el uso de ‘scripts’ te convierte en un usuario avanzado, automatizando tareas, instalación de software y control básico de la máquina.\nPara instalar apps en Linux antes hay saber si son compatibles con nuestra distribución, en caso afirmativo tenemos varias opciones:\nDesde el listado de apps del repositorio de tu distribución Usar el instalador paquetes propio de cada distro. Ejemplo: en Arch pacman -S firefox, en Debian install apt-get -S firefox. Con un entorno gráfico que ejecuta los comandos. Ejecutando un archivo compatible con la distro: Debian (.deb), Red Hat (.rpm) Con un script en bash y dando permisos de administrador. Extrayendo los archivos comprimidos e instalándolos siguiendo las instrucciones. Compilando e instalando desde cero los archivos binarios. El número de apliaciones nativas en Linux no es tan alto como en Windows sin embargo es más que suficiente para cubrir todas las necesidades. Los problemas vienen con el tema gaming y la edición de contenido, ya que se suelen usar programas privados de Windows o mac.\nLos menos benficiados son los que trabajen día a día con Adobe, MS Office, Avid (ProTools), Steinber (Cubase), AutoDesk (AutoCAD, Maya, etc), Apple (Logic Pro), Ableton. Ninguna de estas aplicacione es compatible con Linux sin embargo existen formas de usar aplicaciones nativas de Microsoft Windows en Linux con lo que se conoce como emuladores. El más conocido es WINE, que se usa en Bottles, Lutris, Play on Linux, Proton para facilitar la instalación de WINE.\nPersonalización de Linux (ricing) Linux es muy personalizable tanto que te puedes perder en ese mundo, pero es cuestión de gustos y probar lo que más te guste. A la acción de customizar al detalle la interfaz del sistema se le conoce como ricing y hay comunidades dedicadas a ello en Reedit, en la cual la gente postea sus bonitos entornos de trabajo, la más conocida es r/UnixPorn.\nVentajas y desventajas Linux tiene muchas ventajas, la principal es que es de código abierto y libre lo que permite conocer como funciona internamente, la mayoría de las aplicaciones son gratuitas y hay una gran comunidad dispuesta a ayudar. También es más segura en frente a malware debido a que hay menos usuarios por lo que los atacantes se enfocan menos y de base es más robusta frente a ciberataques, además en Linux eres dueño de tus datos no hay trackeo preinstalado por parte de megacorporaciiones como Apple, GOogle o Microsfot.\nLa principal desventaja es la incompatibilidad con el hardware debido a que su software suele privativo, determinados teclados o ratones con luces la configuración de luces se vuelve inútil, algunas impresoras tampoco funcionan ya que usan drivers privados.\nOtra es desventaja es que hay menos aplicaciones compatibles con Linux porque las grandes empresas que desarrolan software privativo de pago no desarrollan para Linux ya que hay menos usuarios y la mayoría usan FOSS por lo que no abría mercado.\nEntre las más famosas están Adobe (Adobe Reader, Illustrator, Photoshop), Autodesk (AutoCAD, Maya), Microsoft (MS Office), Serif (Affinity Photo). Además el tema de juegos está enfocado a Windows, ya que Microsoft es dueña de los mayores estudios de videojuegos. Sin embargo todo tiene solución, existen alternativas a la altura de las aplicaciones privativas y formas de poder ejecutar si es necesario desde un emulador de Windows usando Wine (Windows Emulator).\nLinux como proceso de aprendizaje Una vez somos capaces de configurar nuestro sistema operativo, por ejemplo basado en Arch Linux nos volvemos usuarios más autosuficientes y que entienden mejor el funcionamiento de su sistema. Además con la ventaja de estar usando aplicaciones gratuitas de código abierto, en un entorno seguro y con privacidad, quitándole poder a las macroecosistemas digitales con visión imperialista como son Google, Apple, Microsoft…\nCada vez hay más gente que usa sistemas operativos de código abierto y en concreto basados en Linux, ya que su instalación hoy en día es muy sencilla y hay una gran comunidad dispuesta a resolveer dudas.\nSi buscas privacidad aplicaciones de código abierto y libres / aprender y entender mejor el software / eficiencia / minimalismo / configurar tu sistema al detella este es tu sistema operativo.\nConclusiones de Linux Linux tiene muchas ventajas es un sistema operativo seguro, estandarizado, de código abierto, gratuito, hay una gran comunidad y el software para este cubre casi todas las necesidades. Además si sabemos usar bien la terminal somos semidioses, podemos hacer de todo.\nComo todo hay que adapatarse pero para eso hay probar, una vez te adaptes lo más probable es que te guste y te quedes usando Linux.\nPosdata Si quieres pasarte a Linux tienes que revisar que el hardware que usas sea compatible con Linux, ya ciertos productos dejarán de funcionar igual si los drivers son únicos de Windows o macOS. Ejemplo ciertas impresoras funcionan solo con Windows, las ajustes de luces RGB precisan de drivers y no todos son compatibles con Linux y así con otros detalles, Por eso es recomendable revisar a la hora de comprar que el hardware sea compatible con Linux.\nAunque es cierto que hoy en día cada vez las empresas se abren más a liberar código de aplicaciones antiguas y la comunidad es capaz de crear aplicaciones que solucionan esos problemas.\nNotas Distros: acrónimo de distribuciones. Distros derivadas: son distros basadas en una original pero independientes. Sabores de distro: distro con cambios pequeños en la apariencia. Especias de distros: son complementos para una misma distribución. SO: Sistema Operativo.\nFOSS: Free and Open Source Software\nEnlaces Filosfía de GNU (código abiero) Listado de apps - Arch Linux Listado distros de Linux - LWN Listado distros de Linux - Wikipedia ",
+  "wordCount" : "2579",
+  "inLanguage": "es",
+  "datePublished": "2022-06-18T00:00:00Z",
+  "dateModified": "2022-06-18T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Curiosity432"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://curiosity432.netlify.app/es/posts/linux-intro/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Curiosity432 Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://curiosity432.netlify.app/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://curiosity432.netlify.app/es/" accesskey="h" title="Curiosity432 Blog (Alt + H)">
+                <img src="https://curiosity432.netlify.app/apple-touch-icon.png" alt="logo" aria-label="logo"
+                    height="35">Curiosity432 Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://curiosity432.netlify.app/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://curiosity432.netlify.app/es/archives/" title="Archivos">
+                    <span>Archivos</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/categories/" title="Categorías">
+                    <span>Categorías</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/tags/" title="Etiquetas">
+                    <span>Etiquetas</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/search/" title="Rebuscar">
+                    <span>Rebuscar</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://curiosity432.netlify.app/es/about/" title="Acerca">
+                    <span>Acerca</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://curiosity432.netlify.app/es/">Inicio</a>&nbsp;»&nbsp;<a href="https://curiosity432.netlify.app/es/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Introducción a Linux
+    </h1>
+    <div class="post-description">
+      Linux para principiantes
+    </div>
+    <div class="post-meta"><span title='2022-06-18 00:00:00 +0000 UTC'>junio 18, 2022</span>&nbsp;·&nbsp;13 min&nbsp;·&nbsp;Curiosity432&nbsp;|&nbsp;
+<ul class="i18n_list">Traducciones:
+    <li>
+        <a href="https://curiosity432.netlify.app/posts/linux-intro/">English</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Tabla de Contenidos</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#breve-introducci%c3%b3n" aria-label="Breve introducción">Breve introducción</a></li>
+                <li>
+                    <a href="#hablemos-de-linux" aria-label="Hablemos de Linux">Hablemos de Linux</a><ul>
+                        
+                <li>
+                    <a href="#distros-de-linux" aria-label="Distros de Linux">Distros de Linux</a></li>
+                <li>
+                    <a href="#instalar-software-en-linux" aria-label="Instalar software en Linux">Instalar software en Linux</a></li>
+                <li>
+                    <a href="#personalizaci%c3%b3n-de-linux-ricing" aria-label="Personalización de Linux (ricing)">Personalización de Linux (ricing)</a></li>
+                <li>
+                    <a href="#ventajas-y-desventajas" aria-label="Ventajas y desventajas">Ventajas y desventajas</a></li></ul>
+                </li>
+                <li>
+                    <a href="#linux-como-proceso-de-aprendizaje" aria-label="Linux como proceso de aprendizaje">Linux como proceso de aprendizaje</a></li>
+                <li>
+                    <a href="#conclusiones-de-linux" aria-label="Conclusiones de Linux">Conclusiones de Linux</a></li>
+                <li>
+                    <a href="#posdata" aria-label="Posdata">Posdata</a></li>
+                <li>
+                    <a href="#notas" aria-label="Notas">Notas</a></li>
+                <li>
+                    <a href="#enlaces" aria-label="Enlaces">Enlaces</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="breve-introducción">Breve introducción<a hidden class="anchor" aria-hidden="true" href="#breve-introducción">#</a></h2>
+<p>En este artículo voy a hablar acerca de Linux y dar una visión amplia de este concepto, ya que suele ser un tema un tanto técnico y suele haber confusiones.</p>
+<p>De forma general Linux es un sistem operativo, no voy a entrar en detalle en el concepto de este término para no hacer pesado este artículo pero en sí es el software fundamental para usar un dispositivo, ya sea ordenador, tablet móvil o cualquier dispositvo que cuente con una pantalla electrónica (televisores, impresoras con pantalla, microondas con pantalla, máquinas de bebida, etc). Hoy en día casi cualquier dispositvo electrónico cuenta con un sistema operativo integrado, lo que ocurre es que el sistema operativo para una placa de inducción es mucho más sencillo que el de un computador personal o móvil.</p>
+<p>Para una placa de inducción solo se necesita configurar el botón (encendido, apagado), botón cambiar potencia (0 a 9) e indicar la posición de la placa, es un sistema operativo muy básico programada a bajo nivel (con funcionamiento directo a la máquina). Sin embargo en un PC hay muchos dispositivos integrados y muchas más tareas que congregar, es un sistema operativo bastante más complejo con distintas capas de funcionamiento.</p>
+<p>Por lo general cuando preguntas a la gente &lsquo;¿Qué sistema operativo usas en tu ordenador?&rsquo; la mayoría responderá Windows (75% en PC) o macOS (15 % en PC), ya que son los dos SO (Sistemas operativos) más usados a nivel personal debido ya que vienen preinstalados de fábrica, Windows viene con la mayoría de marcas de portátiles y PC de escritorio montados, mientras macOS viene en los ordenadores de Apple. Lo mismo pasa con los móviles la mayoría vienen con versiones de Android y los de Apple (28 % usuarios de móvil) con iOS.
+Los porcentajes son en computadoras: 77% Windows, 17% macOS, 6% otros; mientras en móviles 72% Google, 27% iOS, 1% otros.</p>
+<p>Sin embargo hay otro SO mucho más usado en cómputo total y que la gente no conoce tanto, este es Linux (GNU/Linux concretamente). ¿Y cómo es posible que sea más usado y menos conocido? Pues la respuesta es porque es el SO más usado en servidores, es decir el software predominante en las computadoras que prestan servicio a internet y hay mucho más número de servidores que de dispositivos que reciben servicio. En el caso de servidores, más del 90% son Linux, esto se debe a que los servidores son computadoras sin pantalla que para funcianor solo precisan de la terminal de comandos, los comandos de Linux están más estandarizados, son más compatibles para un entorno web y el software es gratuito de base.</p>
+<p>En cambio a nivel de usuario como ordenador personal (PC) no supera el 7% y en el caso de móviles Android es un SO de código abierto basado en Linux pero perteneciente a Google.</p>
+<p>Hay mucho más sistemas operativos pero estos tres son los más grandes y potentes. A pesar de ser usados para realizar tareas similares, entre ellos hay grandes diferencias. Windows es un software privativo perteneciente a Microsoft, macOS (OS X) es privativo de la compañía Apple y Linux se basa en la filosofía de código abierto y libre, que no implica gratuito.</p>
+<h2 id="hablemos-de-linux">Hablemos de Linux<a hidden class="anchor" aria-hidden="true" href="#hablemos-de-linux">#</a></h2>
+<p>A Linux se le conoce como un sistema operativo pero estrictamente hablando es el núcleo o kernel del SO que se comunica con el resto programas e interactúa con el hardware. Su nombre completo es GNU/Linux. La combinación del nombre se debe GNU (GNU&rsquo;s Not Unix! nombre autoreferenciado) proyecto creado por Richard Stallman (estudiante del MIT) en los años 80 con el objetivo de crear un SO de código abierto y libre que remplazase UNIX el SO de la época qu era privativo y de pago, mientras Linux proviene de Linus Torvalds quien contribuyó de manera inicial compartiendo el código de un Kernel de un SO con el proyecto GNU.</p>
+<p>El 27 de septiembre de 1983 Richard Stallman anunción el proyecto GNU, proyecto para promover el control y libertad del uso de las computadoras y de la creación de software libre. Ocho años más tarde, el 17 de septiembre de 1991 Linus Torvalds tras 9 meses de trabajo contribuyó con el código escrito para el kernel de el sistema operativo GNU. En ese momento se considera el nacimiento del Linux o concretamente del Kernel de Linux basado en GNU.</p>
+<p>Al igual que a Microsoft se le asocia con su fundador Bill Gates, a Apple con Steve Jobs, a Linux se le asocia con dos personas Linus Torvalds (creador del Kernel de Linux) y Richard Stallman (creador del proyecto GNU). Ahora la principal diferencia de Linux frente a Windows y macOS, es su filosofía de trabajo. El sistema operativo de Linux debe cumplir principalmente la regla de código abierto con diferentes licencias de distribución aunque mayoritariamente se ofrece de manera gratuita, a lo que se conoce como FOSS (Free and Open Source Software). Ahora como Linux es solo el Kernel para poder tener el resto de partes que completen el sistema operativo surgen las distribuciones de Linux.</p>
+<h3 id="distros-de-linux">Distros de Linux<a hidden class="anchor" aria-hidden="true" href="#distros-de-linux">#</a></h3>
+<p>Si quisiéramos montar un sistema operativo de cero personalizable tendríamos que configurar todo el software para hacer funcionar ese hardware, en el caso de Linux para un PC tendrías que configurar el Kernel y el resto del software para ese ordenador. Por eso a lo largo del tiempo se han ido desarrollando lo que se conoce como distribuciones de Linux, sistemas operativos que facilitan el uso e instalación del sistema operativo al usuario. Las distros usan el kernel de Linux añadiendo un instaldor de paquetes, y pueden venir con software preinstalado para su uso directo.</p>
+<p>La distribuciones suelen ser de código abierto por tanto ocurre que los desarrollados reutilizan código y las distros van derivando. Cuando surge una nueva distro basada en una original, es decir se crea una rama en el código, se le conoce como distro derivada y si una misma distro tiene distintos entornos para instalar se le conoce como sabores de la distribución. Hoy en día existen cientos de distribuciones de Linux pero la mayoría derivan originalmente de un puñado pequeño.</p>
+<ul>
+<li>Debian. Debian es de las distros más antigua de 1993. De esta derivan: Ubuntu (ElementaryOS, Linux Mint, KDE Neon, PopOS, Lubuntu, Xubuntu, Zorin), MX-Linux, Parrot, PureOS, Tails, Raspberry, Moodle&hellip;</li>
+<li>Arch Linux creada en 2002, de la cual derivan ArchCraft, ArcoLinux, Artix, Black Arch, Garuda Linux, Hyperbola, Manjaro&hellip;</li>
+<li>Red Hat Linux (Fedora, Mandrake, Slafish OS, Cent OS, Mandriva (Mageia))</li>
+<li>Gentoo creada en el año 2000.</li>
+<li>Linux from Scratch, un instalador que permite instalar Linux desde cero, lanzada en el año 1999.</li>
+<li>Slackware, la primera distro lanzada en el año 1992.</li>
+<li>Suse (Open Suse, Gecko Linux), lanzada en 1996.</li>
+<li>Distros independientes: Nix OS (de 2003), KaOS (de KDE), Minimal Linux Live&hellip;</li>
+</ul>
+<p>Además hay distros de Linux específicas para servidores: Ubuntu Server, Debian, OpenSuse, Fedora Server; o distros especificas como: ZeroShell, ClearLinux (de Intel), OviOS, LTSP. Y para smartwatch (PineTime, Asteroid) o móviles (Android).</p>
+<p>Las distros más usadas son basadas en Debian, en Arch y en Red Hat (Fedora). Y la principal diferencia es el instalador de paquetes que usan, el software encargado de facilitar la instalación de aplicaciones.</p>
+<table>
+<thead>
+<tr>
+<th>Distro</th>
+<th>Caracterśiticas</th>
+<th>Instalador de paquetes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Debian (Ubuntu, Linuix Mint)</td>
+<td>Distro estable de por vida, con 4 años de actualizaciones en seguridad</td>
+<td>apt, dpkg</td>
+</tr>
+<tr>
+<td>Red hat Linux (Fedora)</td>
+<td>Actualizado por versiones, más estable</td>
+<td>dnf, yum</td>
+</tr>
+<tr>
+<td>Arch Linux (ArchCraft, ArcoLinux, Black Arch, Garuda, Manjaro)</td>
+<td>Actualización continua (posible inestable), repositorio de software de la comunidad AUR</td>
+<td>pacman</td>
+</tr>
+</tbody>
+</table>
+<p>Según el nivel de dificultad:</p>
+<ul>
+<li>Para principiantes: basadas en Debian con sistema presintalado (Linux Mint, ElementaryOS, Ubuntu, Manjaro)</li>
+<li>Para usuarios medios: basadas en Arch con entorno preinstalado (Garuda Linux, ArcoLinux) o de Red Hat (Fedora)</li>
+<li>Para usuarios avanzados: Arch Linux (ejecutando scripts o escribiendo comandos), Slackware o Gentoo</li>
+</ul>
+<p>Ubuntu y Linx Mint (basadas en Debian) son muy intuitivas de usar, vienen el sistema operativo configurado con un entorno de escritorio preinstalado y un instalador de aplicaciones. Sin embargo otras distros solo contienen el Kernel con el instalador de paquetes y una terminal de comandos para realizar cualquier cambio, sin interfaz gráfica donde solo funciona el teclado.</p>
+<p>En el caso de Arch Linux es para usuarios algo más avanzados, es necesario saber usar la terminal para poder instalar y configurar el sistema operativo a tu gusto, o también copiar y pegar los comandos de la <a href="https://wiki.archlinux.org/title/Installation_guide">guía de instalación de Arch Linux</a>. La forma clásica de configurar Arch es escribiendo los comandos en la terminal aunque en las nuevas versiones se puede hacer seleccionando un listado de opciones tras ejecutar &ldquo;archinstall&rdquo; o ejecutando un script desde un servidor externo o en local. Las tres hacen uso de la terminal de comandos, elemento que le da instrucciones al sistema operativo.</p>
+<p>Entre ellos yo estoy usando ahora ArcoLinux que cuenta con multitud de isos con distintos niveles para instalar enfocadas a enseñar al usuario y facilitar la instalación de Arch. Además Arch tiene la ventaja de que funciona siempre en la última versión, eso sí sacrificando un poco de estabilidad y cuenta con una gran comunidad activa. Y otras que recomiendo Fedora o Manjaro.</p>
+<h3 id="instalar-software-en-linux">Instalar software en Linux<a hidden class="anchor" aria-hidden="true" href="#instalar-software-en-linux">#</a></h3>
+<p>Ahora qué programas necesitamos para montar nuestro propio sistema operativo, pues principalmente:</p>
+<ol>
+<li>El núcleo del sistema</li>
+<li>Iniciador del sistema: systemd, dinit, runit, upstart, finit.</li>
+<li>Controlador de drivers: bluetooth, wifi, impresora, procesador, tarjeta gráfica.</li>
+<li>Entorno de escritorio: KDE, GNOME, sway, bspwm, i3
+<ol>
+<li>Apps integradas: gestor de inicio, gestor de ventanas, escritorio personalizado (fondos, iconos, tipo de letra)</li>
+<li>Apps básicas: terminal, gestor de archivos, navegador, reproductor, editor, utilidades.</li>
+</ol>
+</li>
+</ol>
+<p>Cuando te adentras en Linux descubres que todo es configurable y entiendes más profundamente como funciona un equipo internamente.</p>
+<p>Además entiendes que cada distribución precisa de un gestor de paquetes para poder instalar los programas y que la consola (terminal de comandos) cobra mucha más importancia de la que creías. Conocer los comandos de terminal y manejar el uso de &lsquo;scripts&rsquo; te convierte en un usuario avanzado, automatizando tareas, instalación de software y control básico de la máquina.</p>
+<p>Para instalar apps en Linux antes hay saber si son compatibles con nuestra distribución, en caso afirmativo tenemos varias opciones:</p>
+<ol>
+<li>Desde el listado de apps del repositorio de tu distribución
+<ol>
+<li>Usar el instalador paquetes propio de cada distro. Ejemplo: en Arch <code>pacman -S firefox</code>, en Debian <code>install apt-get -S firefox</code>.</li>
+<li>Con un entorno gráfico que ejecuta los comandos.</li>
+</ol>
+</li>
+<li>Ejecutando un archivo compatible con la distro: Debian (.deb), Red Hat (.rpm)</li>
+<li>Con un script en bash y dando permisos de administrador.</li>
+<li>Extrayendo los archivos comprimidos e instalándolos siguiendo las instrucciones.</li>
+<li>Compilando e instalando desde cero los archivos binarios.</li>
+</ol>
+<p>El número de apliaciones nativas en Linux no es tan alto como en Windows sin embargo es más que suficiente para cubrir todas las necesidades. Los problemas vienen con el tema gaming y la edición de contenido, ya que se suelen usar programas privados de Windows o mac.</p>
+<p>Los menos benficiados son los que trabajen día a día con Adobe, MS Office, Avid (ProTools), Steinber (Cubase), AutoDesk (AutoCAD, Maya, etc), Apple (Logic Pro), Ableton. Ninguna de estas aplicacione es compatible con Linux sin embargo existen formas de usar aplicaciones nativas de Microsoft Windows en Linux con lo que se conoce como emuladores. El más conocido es WINE, que se usa en Bottles, Lutris, Play on Linux, Proton para facilitar la instalación de WINE.</p>
+<h3 id="personalización-de-linux-ricing">Personalización de Linux (ricing)<a hidden class="anchor" aria-hidden="true" href="#personalización-de-linux-ricing">#</a></h3>
+<p>Linux es muy personalizable tanto que te puedes perder en ese mundo, pero es cuestión de gustos y probar lo que más te guste. A la acción de customizar al detalle la interfaz del sistema se le conoce como ricing y hay comunidades dedicadas a ello en Reedit, en la cual la gente postea sus bonitos entornos de trabajo, la más conocida es <a href="https://www.reddit.com/r/unixporn">r/UnixPorn</a>.</p>
+<h3 id="ventajas-y-desventajas">Ventajas y desventajas<a hidden class="anchor" aria-hidden="true" href="#ventajas-y-desventajas">#</a></h3>
+<p>Linux tiene muchas ventajas, la principal es que es de código abierto y libre lo que permite conocer como funciona internamente, la mayoría de las aplicaciones son gratuitas y hay una gran comunidad dispuesta a ayudar. También es más segura en frente a malware debido a que hay menos usuarios por lo que los atacantes se enfocan menos y de base es más robusta frente a ciberataques, además en Linux eres dueño de tus datos no hay trackeo preinstalado por parte de megacorporaciiones como Apple, GOogle o Microsfot.</p>
+<p>La principal desventaja es la incompatibilidad con el hardware debido a que su software suele privativo, determinados teclados o ratones con luces la configuración de luces se vuelve inútil, algunas impresoras tampoco funcionan ya que usan drivers privados.</p>
+<p>Otra es desventaja es que hay menos aplicaciones compatibles con Linux porque las grandes empresas que desarrolan software privativo de pago no desarrollan para Linux ya que hay menos usuarios y la mayoría usan FOSS por lo que no abría mercado.</p>
+<p>Entre las más famosas están Adobe (Adobe Reader, Illustrator, Photoshop), Autodesk (AutoCAD, Maya), Microsoft (MS Office), Serif (Affinity Photo). Además el tema de juegos está enfocado a Windows, ya que Microsoft es dueña de los mayores estudios de videojuegos. Sin embargo todo tiene solución, existen alternativas a la altura de las aplicaciones privativas y formas de poder ejecutar si es necesario desde un emulador de Windows usando Wine (Windows Emulator).</p>
+<h2 id="linux-como-proceso-de-aprendizaje">Linux como proceso de aprendizaje<a hidden class="anchor" aria-hidden="true" href="#linux-como-proceso-de-aprendizaje">#</a></h2>
+<p>Una vez somos capaces de configurar nuestro sistema operativo, por ejemplo basado en Arch Linux nos volvemos usuarios más autosuficientes y que entienden mejor el funcionamiento de su sistema. Además con la ventaja de estar usando aplicaciones gratuitas de código abierto, en un entorno seguro y con privacidad, quitándole poder a las macroecosistemas digitales con visión imperialista como son Google, Apple, Microsoft&hellip;</p>
+<p>Cada vez hay más gente que usa sistemas operativos de código abierto y en concreto basados en Linux, ya que su instalación hoy en día es muy sencilla y hay una gran comunidad dispuesta a resolveer dudas.</p>
+<p>Si buscas privacidad aplicaciones de código abierto y libres / aprender y entender mejor el software / eficiencia / minimalismo / configurar tu sistema al detella este es tu sistema operativo.</p>
+<h2 id="conclusiones-de-linux">Conclusiones de Linux<a hidden class="anchor" aria-hidden="true" href="#conclusiones-de-linux">#</a></h2>
+<p>Linux tiene muchas ventajas es un sistema operativo seguro, estandarizado, de código abierto, gratuito, hay una gran comunidad y el software para este cubre casi todas las necesidades. Además si sabemos usar bien la terminal somos semidioses, podemos hacer de todo.</p>
+<p>Como todo hay que adapatarse pero para eso hay probar, una vez te adaptes lo más probable es que te guste y te quedes usando Linux.</p>
+<h2 id="posdata">Posdata<a hidden class="anchor" aria-hidden="true" href="#posdata">#</a></h2>
+<p>Si quieres pasarte a Linux tienes que revisar que el hardware que usas sea compatible con Linux, ya ciertos productos dejarán de funcionar igual si los drivers son únicos de Windows o macOS. Ejemplo ciertas impresoras funcionan solo con Windows, las ajustes de luces RGB precisan de drivers y no todos son compatibles con Linux y así con otros detalles, Por eso es recomendable revisar a la hora de comprar que el hardware sea compatible con Linux.</p>
+<p>Aunque es cierto que hoy en día cada vez las empresas se abren más a liberar código de aplicaciones antiguas y la comunidad es capaz de crear aplicaciones que solucionan esos problemas.</p>
+<h2 id="notas">Notas<a hidden class="anchor" aria-hidden="true" href="#notas">#</a></h2>
+<p>Distros: acrónimo de distribuciones.
+Distros derivadas: son distros basadas en una original pero independientes.
+Sabores de distro: distro con cambios pequeños en la apariencia.
+Especias de distros: son complementos para una misma distribución.
+SO: Sistema Operativo.</p>
+<p>FOSS: Free and Open Source Software</p>
+<h2 id="enlaces">Enlaces<a hidden class="anchor" aria-hidden="true" href="#enlaces">#</a></h2>
+<ul>
+<li><a href="https://www.gnu.org/philosophy/open-source-misses-the-point.en.html">Filosfía de GNU (código abiero)</a></li>
+<li><a href="https://wiki.archlinux.org/title/List_of_applications">Listado de apps - Arch Linux</a></li>
+<li><a href="https://lwn.net/Distributions/">Listado distros de Linux - LWN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_Linux_distributions">Listado distros de Linux - Wikipedia</a></li>
+</ul>
+
+
+  </div>
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://curiosity432.netlify.app/es/tags/computaci%C3%B3n/">Computación</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://curiosity432.netlify.app/es/posts/linux-desktop-distro/">
+    <span class="title">« Página anterior</span>
+    <br>
+    <span>Distribuciones Linux con/sin escritorio</span>
+  </a>
+  <a class="next" href="https://curiosity432.netlify.app/es/posts/content-manager/">
+    <span class="title">Página siguiente »</span>
+    <br>
+    <span>Las mejores aplicaciones para organizar contenido</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://curiosity432.netlify.app/es/">Curiosity432 Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copiar';
+
+        function copyingDone() {
+            copybutton.innerText = '¡copiado!';
+            setTimeout(() => {
+                copybutton.innerText = 'copiar';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

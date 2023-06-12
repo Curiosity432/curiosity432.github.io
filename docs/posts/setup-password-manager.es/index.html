@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Configurar gestor de contraseñas | Curiosity432 Blog</title>
+<meta name="keywords" content="Computing, Productivity" />
+<meta name="description" content="Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
+No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
+Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).">
+<meta name="author" content="Curiosity432">
+<link rel="canonical" href="https://curiosity432.netlify.app/posts/setup-password-manager.es/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<link rel="preload" href="/apple-touch-icon.png" as="image">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://curiosity432.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://curiosity432.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://curiosity432.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://curiosity432.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://curiosity432.netlify.app/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.112.3">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Configurar gestor de contraseñas" />
+<meta property="og:description" content="Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
+No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
+Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://curiosity432.netlify.app/posts/setup-password-manager.es/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-11T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2023-06-11T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Configurar gestor de contraseñas"/>
+<meta name="twitter:description" content="Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
+No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
+Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits)."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://curiosity432.netlify.app/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Configurar gestor de contraseñas",
+      "item": "https://curiosity432.netlify.app/posts/setup-password-manager.es/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Configurar gestor de contraseñas",
+  "name": "Configurar gestor de contraseñas",
+  "description": "Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.\nNo recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.\nEstos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).",
+  "keywords": [
+    "Computing", "Productivity"
+  ],
+  "articleBody": "Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.\nNo recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.\nEstos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).\nHay dos formas de cifrar y organizar sus contraseñas en un solo archivo:\n1. Use un archivo de hoja de cálculo encriptado Utilice una hoja de cálculo con estos formatos de archivo:\nODS (Open Document Spreadsheet), compatible con Libre Office, Collabora Office, Only Office, Open Office XLS (hoja de cálculo de Microsoft Excel), compatible con Microsoft Office Excel, hoja de cálculo WPS XLS u ODS le permite guardar su contraseña y cuentas como una hoja de cálculo en un archivo encriptado con una contraseña elegida.\nPara hacer esto, debe instalar una suite de Office, abrir la aplicación de hoja de cálculo y “Guardar como” con contraseña.\nEn Libre Office Calc: “Archivo -\u003e Guardar como (Ctrl+Shift+S) y seleccione “Guardar con contraseña”. Para Microsoft Excel, es muy similar a XLS, pero más seguro.\nRecomiendo usar Libre Office Calc, que es parte de la suite Libre Office, porque es FOSS (código abierto gratuito) y funciona en Windows, MacOS, Linux; y para abrir el archivo en el teléfono, solo use Collabora Office. Si desea utilizar XLS, puede utilizar MS Excel (de MS Office) o las alternativas gratuitas como WPS.\nVentajas Un archivo encriptado en la unidad local Solo puede ingresar el principio y el final de la contraseña, es en texto claro. Puedes organizarlo a tu manera con: Columnas: correo electrónico, categoría, empresa, nombre de usuario, contraseña, notas Filas: como los valores. Desventajas. No hay opción para generar la contraseña automáticamente El archivo se puede descifrar con varios intentos y depende de la seguridad de la contraseña. No hay opción para ocultar la contraseña. Sin sincronización 2. Usar el archivo KeePass (kdbx) KeePass es un administrador de contraseñas gratuito de código abierto para Windows, donde puede almacenar nombres de usuario, contraseñas, otros campos, notas de formato libre y archivos adjuntos en un archivo cifrado.\nEs similar a la versión anterior pero el software está diseñado para guardar la información de la cuenta (usuario, contraseñas, correo, etc.) en lugar de una tabla en una hoja de cálculo.\nPara Windows solo descarga desde la página oficial: https://keepass.info/download.html\nPara el escritorio de Unix, debe instalar las dependencias: libgdiplus y mono framework\nPara ArchLinux: https://archlinux.org/packages/extra/any/keepass/ Para Debian: https://packages.debian.org/bullseye/keepass2 Para Fedora: https://packages.fedoraproject.org/pkgs/keepass/keepass/ Para Gentoo: https://packages.gentoo.org/packages/app-admin/keepass Para OpenSUSE: https://software.opensuse.org/package/keepass Para FreeBSD: https://www.freshports.org/security/keepass/ Otra aplicación compatible con KeePass Debido al gran auge de KeePass existen aplicaciones nativas de KeePass compatibles.\nMultiplataforma:\nKeePassXC: https://keepassxc.org/ KeeWeb: https://github.com/keeweb/keeweb/releases/ Para macOS:\nMacPAss: https://github.com/MacPass/MacPass/releases Para móvil:\nPara Android: KeePassDX: https://www.keepassdx.com/ KeePass2Android: https://github.com/PhilippC/keepass2android/releases Para iOS: KeePassium: https://keepassium.com Caja Fuerte: https://strongboxsafe.com/ Ventajas\nUn archivo encriptado en local\nPuedes poner una contraseña falsa como inicial y final de contraseña (P…d)\nClasificar por (carpetas, etiquetas) con datos de cuentas (usuario, contraseña, correo, etc)\nOpción para ocultar contraseñas\nContras.\nNo hay opción para autogenerar contraseña\nEl archivo se puede descifrar con varios intentos y depende de la seguridad de la contraseña.\nNo hay opción para ocultar la contraseña\nNo sincronizado Conclusión Estos son los métodos sencillos que he encontrado para gestionar tus contraseñas de forma segura y privada. Uso un archivo cifrado ODS con Libre Office Calc en Arch Linux y Collabora Office en Android, pero migraré las contraseñas a KeePassXC en Arch y KeePassDX en Android.\nSi deseas sincronizar el archivo cifrado desde diferentes dispositivos, puedes hacerlo manualmente mediante un cable USB o a través de una red (intranet o internet), pero prefiero no compartir los datos a través de una red.\nY una cosa que debes recordar es tu contraseña maestra, para eso puedes crear un archivo (audio, imagen, texto, video) que te recuerde esta contraseña. En mi caso, solo uso un logotipo encriptado que solo yo puedo entender.\nTambién podrías crear tu propio lenguaje encriptado para almacenar contraseñas, pero eso requiere más esfuerzo. En el pasado, las personas encriptaban cosas dibujando símbolos y formas que solo las personas cultas podían entender.\n",
+  "wordCount" : "716",
+  "inLanguage": "en",
+  "datePublished": "2023-06-11T00:00:00Z",
+  "dateModified": "2023-06-11T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Curiosity432"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://curiosity432.netlify.app/posts/setup-password-manager.es/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Curiosity432 Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://curiosity432.netlify.app/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://curiosity432.netlify.app/" accesskey="h" title="Curiosity432 Blog (Alt + H)">
+                <img src="https://curiosity432.netlify.app/apple-touch-icon.png" alt="logo" aria-label="logo"
+                    height="35">Curiosity432 Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://curiosity432.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://curiosity432.netlify.app/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Configurar gestor de contraseñas
+    </h1>
+    <div class="post-meta"><span title='2023-06-11 00:00:00 +0000 UTC'>June 11, 2023</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Curiosity432
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#configurar-un-administrador-de-contrase%c3%b1as" aria-label="Configurar un administrador de contraseñas">Configurar un administrador de contraseñas</a><ul>
+                        
+                <li>
+                    <a href="#1-use-un-archivo-de-hoja-de-c%c3%a1lculo-encriptado" aria-label="1. Use un archivo de hoja de cálculo encriptado">1. Use un archivo de hoja de cálculo encriptado</a></li>
+                <li>
+                    <a href="#2-usar-el-archivo-keepass-kdbx" aria-label="2. Usar el archivo KeePass (kdbx)">2. Usar el archivo KeePass (kdbx)</a><ul>
+                        
+                <li>
+                    <a href="#otra-aplicaci%c3%b3n-compatible-con-keepass" aria-label="Otra aplicación compatible con KeePass">Otra aplicación compatible con KeePass</a></li></ul>
+                </li>
+                <li>
+                    <a href="#conclusi%c3%b3n" aria-label="Conclusión">Conclusión</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="configurar-un-administrador-de-contraseñas">Configurar un administrador de contraseñas<a hidden class="anchor" aria-hidden="true" href="#configurar-un-administrador-de-contraseñas">#</a></h1>
+<p>Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.</p>
+<p>No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.</p>
+<p>Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar <a href="https://bitwarden.com/">Bitwarden</a> o <a href="https://github.com/dani-garcia/vaultwarden">Vaultwarden</a> (autohospedado Guardabits).</p>
+<p>Hay dos formas de cifrar y organizar sus contraseñas en un solo archivo:</p>
+<h2 id="1-use-un-archivo-de-hoja-de-cálculo-encriptado">1. Use un archivo de hoja de cálculo encriptado<a hidden class="anchor" aria-hidden="true" href="#1-use-un-archivo-de-hoja-de-cálculo-encriptado">#</a></h2>
+<p>Utilice una hoja de cálculo con estos formatos de archivo:</p>
+<ul>
+<li>ODS (Open Document Spreadsheet), compatible con Libre Office, Collabora Office, Only Office, Open Office</li>
+<li>XLS (hoja de cálculo de Microsoft Excel), compatible con Microsoft Office Excel, hoja de cálculo WPS</li>
+</ul>
+<p>XLS u ODS le permite guardar su contraseña y cuentas como una hoja de cálculo en un archivo encriptado con una contraseña elegida.</p>
+<p>Para hacer esto, debe instalar una suite de Office, abrir la aplicación de hoja de cálculo y &ldquo;Guardar como&rdquo; con contraseña.</p>
+<blockquote>
+<p>En Libre Office Calc: &ldquo;Archivo -&gt; Guardar como (Ctrl+Shift+S) y seleccione &ldquo;Guardar con contraseña&rdquo;.
+Para Microsoft Excel, es muy similar a XLS, pero más seguro.</p>
+</blockquote>
+<p><img loading="lazy" src="../../img/password-manager/libreoffice-calc-encrypted.png" alt=""  />
+</p>
+<p>Recomiendo usar Libre Office Calc, que es parte de la suite Libre Office, porque es FOSS (código abierto gratuito) y funciona en Windows, MacOS, Linux; y para abrir el archivo en el teléfono, solo use Collabora Office.
+Si desea utilizar XLS, puede utilizar MS Excel (de MS Office) o las alternativas gratuitas como WPS.</p>
+<ul>
+<li>Ventajas
+<ul>
+<li>Un archivo encriptado en la unidad local</li>
+<li>Solo puede ingresar el principio y el final de la contraseña, es en texto claro.</li>
+<li>Puedes organizarlo a tu manera con:
+<ul>
+<li>Columnas: correo electrónico, categoría, empresa, nombre de usuario, contraseña, notas</li>
+<li>Filas: como los valores.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Desventajas.
+<ul>
+<li>No hay opción para generar la contraseña automáticamente</li>
+<li>El archivo se puede descifrar con varios intentos y depende de la seguridad de la contraseña.</li>
+<li>No hay opción para ocultar la contraseña.</li>
+<li>Sin sincronización</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-usar-el-archivo-keepass-kdbx">2. Usar el archivo KeePass (kdbx)<a hidden class="anchor" aria-hidden="true" href="#2-usar-el-archivo-keepass-kdbx">#</a></h2>
+<p><a href="https://keepass.info/">KeePass</a> es un administrador de contraseñas gratuito de código abierto para Windows, donde puede almacenar nombres de usuario, contraseñas, otros campos, notas de formato libre y archivos adjuntos en un archivo cifrado.</p>
+<p>Es similar a la versión anterior pero el software está diseñado para guardar la información de la cuenta (usuario, contraseñas, correo, etc.) en lugar de una tabla en una hoja de cálculo.</p>
+<p>Para Windows solo descarga desde la página oficial: <a href="https://keepass.info/download.html">https://keepass.info/download.html</a></p>
+<p>Para el escritorio de Unix, debe instalar las dependencias: libgdiplus y mono framework</p>
+<ul>
+<li>Para ArchLinux: <a href="https://archlinux.org/packages/extra/any/keepass/">https://archlinux.org/packages/extra/any/keepass/</a></li>
+<li>Para Debian: <a href="https://packages.debian.org/bullseye/keepass2">https://packages.debian.org/bullseye/keepass2</a></li>
+<li>Para Fedora: <a href="https://packages.fedoraproject.org/pkgs/keepass/keepass/">https://packages.fedoraproject.org/pkgs/keepass/keepass/</a></li>
+<li>Para Gentoo: <a href="https://packages.gentoo.org/packages/app-admin/keepass">https://packages.gentoo.org/packages/app-admin/keepass</a></li>
+<li>Para OpenSUSE: <a href="https://software.opensuse.org/package/keepass">https://software.opensuse.org/package/keepass</a></li>
+<li>Para FreeBSD: <a href="https://www.freshports.org/security/keepass/">https://www.freshports.org/security/keepass/</a></li>
+</ul>
+<h3 id="otra-aplicación-compatible-con-keepass">Otra aplicación compatible con KeePass<a hidden class="anchor" aria-hidden="true" href="#otra-aplicación-compatible-con-keepass">#</a></h3>
+<p>Debido al gran auge de KeePass existen aplicaciones nativas de KeePass compatibles.</p>
+<ul>
+<li>
+<p>Multiplataforma:</p>
+<ul>
+<li>KeePassXC: <a href="https://keepassxc.org/">https://keepassxc.org/</a></li>
+<li>KeeWeb: <a href="https://github.com/keeweb/keeweb/releases/">https://github.com/keeweb/keeweb/releases/</a></li>
+</ul>
+</li>
+<li>
+<p>Para macOS:</p>
+<ul>
+<li>MacPAss: <a href="https://github.com/MacPass/MacPass/releases">https://github.com/MacPass/MacPass/releases</a></li>
+</ul>
+</li>
+<li>
+<p>Para móvil:</p>
+<ul>
+<li>Para Android:
+<ul>
+<li>KeePassDX: <a href="https://www.keepassdx.com/">https://www.keepassdx.com/</a></li>
+<li>KeePass2Android: <a href="https://github.com/PhilippC/keepass2android/releases">https://github.com/PhilippC/keepass2android/releases</a></li>
+</ul>
+</li>
+<li>Para iOS:
+<ul>
+<li>KeePassium: <a href="https://keepassium.com">https://keepassium.com</a></li>
+<li>Caja Fuerte: <a href="https://strongboxsafe.com/">https://strongboxsafe.com/</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Ventajas</p>
+</li>
+<li>
+<p>Un archivo encriptado en local</p>
+</li>
+<li>
+<p>Puedes poner una contraseña falsa como inicial y final de contraseña (P&hellip;d)</p>
+</li>
+<li>
+<p>Clasificar por (carpetas, etiquetas) con datos de cuentas (usuario, contraseña, correo, etc)</p>
+</li>
+<li>
+<p>Opción para ocultar contraseñas</p>
+</li>
+<li>
+<p>Contras.</p>
+</li>
+<li>
+<p>No hay opción para autogenerar contraseña</p>
+</li>
+<li>
+<p>El archivo se puede descifrar con varios intentos y depende de la seguridad de la contraseña.</p>
+</li>
+<li>
+<p>No hay opción para ocultar la contraseña</p>
+<ul>
+<li>No sincronizado</li>
+</ul>
+</li>
+</ul>
+<h2 id="conclusión">Conclusión<a hidden class="anchor" aria-hidden="true" href="#conclusión">#</a></h2>
+<p>Estos son los métodos sencillos que he encontrado para gestionar tus contraseñas de forma segura y privada. Uso un archivo cifrado ODS con Libre Office Calc en Arch Linux y Collabora Office en Android, pero migraré las contraseñas a KeePassXC en Arch y KeePassDX en Android.</p>
+<p>Si deseas sincronizar el archivo cifrado desde diferentes dispositivos, puedes hacerlo manualmente mediante un cable USB o a través de una red (intranet o internet), pero prefiero no compartir los datos a través de una red.</p>
+<p>Y una cosa que debes recordar es tu contraseña maestra, para eso puedes crear un archivo (audio, imagen, texto, video) que te recuerde esta contraseña. En mi caso, solo uso un logotipo encriptado que solo yo puedo entender.</p>
+<blockquote>
+<p>También podrías crear tu propio lenguaje encriptado para almacenar contraseñas, pero eso requiere más esfuerzo.
+En el pasado, las personas encriptaban cosas dibujando símbolos y formas que solo las personas cultas podían entender.</p>
+</blockquote>
+
+
+  </div>
+
+  
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+onload="renderMathInElement(document.body);"></script>
+
+
+
+
+  
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://curiosity432.netlify.app/tags/computing/">Computing</a></li>
+      <li><a href="https://curiosity432.netlify.app/tags/productivity/">Productivity</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://curiosity432.netlify.app/posts/setup-password-manager/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>Setup password manager</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://curiosity432.netlify.app/">Curiosity432 Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

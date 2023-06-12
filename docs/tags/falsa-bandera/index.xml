@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Falsa bandera on Curiosity432 Blog</title>
+    <link>https://curiosity432.netlify.app/tags/falsa-bandera/</link>
+    <description>Recent content in Falsa bandera on Curiosity432 Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://curiosity432.netlify.app/tags/falsa-bandera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explicación de los atentados del 11S</title>
+      <link>https://curiosity432.netlify.app/posts/9-11-explanation.es/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/posts/9-11-explanation.es/</guid>
+      <description>Intro El 11 de septiembre de 2001 es recordado como el mayor atentado terrorista de la historia reciente del siglo XXI, el cual causó una conmoción a nivel mundial y modificó la economía de todos los países ya que ocurrió en Manhattan, Nueva York en las oficinas del centro económico de Estados Unidos y del mundo. Este suceso trajo consigo la incrementación de medidas de seguridad en la lucha contra el terrorismo y las consiguientes guerras de Afganistán en Oriente Medio.</description>
+    </item>
+    
+  </channel>
+</rss>
