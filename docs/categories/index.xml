@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Curiosity432 Blog</title>
-    <link>https://curiosity432.netlify.app/categories/</link>
+    <link>https://curiosity432.xyz/categories/</link>
     <description>Recent content in Categories on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Article</title>
-      <link>https://curiosity432.netlify.app/categories/article/</link>
+      <link>https://curiosity432.xyz/categories/article/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/categories/article/</guid>
+      <guid>https://curiosity432.xyz/categories/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Explanation</title>
-      <link>https://curiosity432.netlify.app/categories/explanation/</link>
+      <link>https://curiosity432.xyz/categories/explanation/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/categories/explanation/</guid>
+      <guid>https://curiosity432.xyz/categories/explanation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writes</title>
-      <link>https://curiosity432.netlify.app/categories/writes/</link>
+      <link>https://curiosity432.xyz/categories/writes/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/categories/writes/</guid>
+      <guid>https://curiosity432.xyz/categories/writes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theory</title>
-      <link>https://curiosity432.netlify.app/categories/theory/</link>
+      <link>https://curiosity432.xyz/categories/theory/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/categories/theory/</guid>
+      <guid>https://curiosity432.xyz/categories/theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://curiosity432.netlify.app/categories/test/</link>
+      <link>https://curiosity432.xyz/categories/test/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/categories/test/</guid>
+      <guid>https://curiosity432.xyz/categories/test/</guid>
       <description></description>
     </item>
     

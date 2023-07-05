@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Theory on Curiosity432 Blog</title>
-    <link>https://curiosity432.netlify.app/categories/theory/</link>
+    <link>https://curiosity432.xyz/categories/theory/</link>
     <description>Recent content in Theory on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/categories/theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/categories/theory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a numeral system?</title>
-      <link>https://curiosity432.netlify.app/posts/system-num/</link>
+      <link>https://curiosity432.xyz/posts/system-num/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/posts/system-num/</guid>
+      <guid>https://curiosity432.xyz/posts/system-num/</guid>
       <description>The importance of numerical systems</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Curiosity432 Blog</title>
-    <link>https://curiosity432.netlify.app/tags/linux/</link>
+    <link>https://curiosity432.xyz/tags/linux/</link>
     <description>Recent content in Linux on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux distros with/out desktops</title>
-      <link>https://curiosity432.netlify.app/posts/linux-desktop-distro/</link>
+      <link>https://curiosity432.xyz/posts/linux-desktop-distro/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/posts/linux-desktop-distro/</guid>
+      <guid>https://curiosity432.xyz/posts/linux-desktop-distro/</guid>
       <description>The most important Linux distributions and desktop environments</description>
     </item>
     

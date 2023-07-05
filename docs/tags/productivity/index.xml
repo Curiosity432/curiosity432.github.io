@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Productivity on Curiosity432 Blog</title>
-    <link>https://curiosity432.netlify.app/tags/productivity/</link>
+    <link>https://curiosity432.xyz/tags/productivity/</link>
     <description>Recent content in Productivity on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setup password manager</title>
-      <link>https://curiosity432.netlify.app/posts/setup-password-manager/</link>
+      <link>https://curiosity432.xyz/posts/setup-password-manager/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/posts/setup-password-manager/</guid>
+      <guid>https://curiosity432.xyz/posts/setup-password-manager/</guid>
       <description>Setting up a password manager This is an article that explains how to set up a password manager in a secure and private way.
 I don&amp;rsquo;t recommend using web applications running on a server, because someone can intercept and decrypt your data and a cracker can use JS malfunctions.
 These methods use local apps with an encrypted file, no data is shared over the internet. However, if you insist on using online web-apps you should use Bitwarden or Vaultwarden (self-hosted Bitwarden).</description>

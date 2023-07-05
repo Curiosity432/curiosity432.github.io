@@ -2,125 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Curiosity432 Blog</title>
-    <link>https://curiosity432.netlify.app/es/tags/</link>
+    <link>https://curiosity432.xyz/es/tags/</link>
     <description>Recent content in Tags on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.netlify.app/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computing</title>
-      <link>https://curiosity432.netlify.app/es/tags/computing/</link>
+      <link>https://curiosity432.xyz/es/tags/computing/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/computing/</guid>
+      <guid>https://curiosity432.xyz/es/tags/computing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>https://curiosity432.netlify.app/es/tags/productivity/</link>
+      <link>https://curiosity432.xyz/es/tags/productivity/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/productivity/</guid>
+      <guid>https://curiosity432.xyz/es/tags/productivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computación</title>
-      <link>https://curiosity432.netlify.app/es/tags/computaci%C3%B3n/</link>
+      <link>https://curiosity432.xyz/es/tags/computaci%C3%B3n/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/computaci%C3%B3n/</guid>
+      <guid>https://curiosity432.xyz/es/tags/computaci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://curiosity432.netlify.app/es/tags/linux/</link>
+      <link>https://curiosity432.xyz/es/tags/linux/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/linux/</guid>
+      <guid>https://curiosity432.xyz/es/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conspiración</title>
-      <link>https://curiosity432.netlify.app/es/tags/conspiraci%C3%B3n/</link>
+      <link>https://curiosity432.xyz/es/tags/conspiraci%C3%B3n/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/conspiraci%C3%B3n/</guid>
+      <guid>https://curiosity432.xyz/es/tags/conspiraci%C3%B3n/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Falsa bandera</title>
-      <link>https://curiosity432.netlify.app/es/tags/falsa-bandera/</link>
+      <link>https://curiosity432.xyz/es/tags/falsa-bandera/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/falsa-bandera/</guid>
+      <guid>https://curiosity432.xyz/es/tags/falsa-bandera/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>https://curiosity432.netlify.app/es/tags/software/</link>
+      <link>https://curiosity432.xyz/es/tags/software/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/software/</guid>
+      <guid>https://curiosity432.xyz/es/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Filosofía</title>
-      <link>https://curiosity432.netlify.app/es/tags/filosof%C3%ADa/</link>
+      <link>https://curiosity432.xyz/es/tags/filosof%C3%ADa/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/filosof%C3%ADa/</guid>
+      <guid>https://curiosity432.xyz/es/tags/filosof%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Física</title>
-      <link>https://curiosity432.netlify.app/es/tags/f%C3%ADsica/</link>
+      <link>https://curiosity432.xyz/es/tags/f%C3%ADsica/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/f%C3%ADsica/</guid>
+      <guid>https://curiosity432.xyz/es/tags/f%C3%ADsica/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tierra</title>
-      <link>https://curiosity432.netlify.app/es/tags/tierra/</link>
+      <link>https://curiosity432.xyz/es/tags/tierra/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/tierra/</guid>
+      <guid>https://curiosity432.xyz/es/tags/tierra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sociología</title>
-      <link>https://curiosity432.netlify.app/es/tags/sociolog%C3%ADa/</link>
+      <link>https://curiosity432.xyz/es/tags/sociolog%C3%ADa/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/sociolog%C3%ADa/</guid>
+      <guid>https://curiosity432.xyz/es/tags/sociolog%C3%ADa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://curiosity432.netlify.app/es/tags/blog/</link>
+      <link>https://curiosity432.xyz/es/tags/blog/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/blog/</guid>
+      <guid>https://curiosity432.xyz/es/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Matemáticas</title>
-      <link>https://curiosity432.netlify.app/es/tags/matem%C3%A1ticas/</link>
+      <link>https://curiosity432.xyz/es/tags/matem%C3%A1ticas/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://curiosity432.netlify.app/es/tags/matem%C3%A1ticas/</guid>
+      <guid>https://curiosity432.xyz/es/tags/matem%C3%A1ticas/</guid>
       <description></description>
     </item>
     

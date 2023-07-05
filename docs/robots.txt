@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://curiosity432.netlify.app/sitemap.xml
+Sitemap: https://curiosity432.xyz/sitemap.xml
