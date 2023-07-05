@@ -154,6 +154,25 @@
                 href="https://curiosity432.netlify.app/es/tags/linux/"
                 />
   </url><url>
+    <loc>https://curiosity432.netlify.app/es/tags/conspiraci%C3%B3n/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curiosity432.netlify.app/es/posts/9-11-explanation/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://curiosity432.netlify.app/posts/9-11-explanation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://curiosity432.netlify.app/es/posts/9-11-explanation/"
+                />
+  </url><url>
+    <loc>https://curiosity432.netlify.app/es/tags/falsa-bandera/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://curiosity432.netlify.app/es/posts/content-manager/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -390,8 +409,6 @@
                 href="https://curiosity432.netlify.app/es/search/"
                 />
   </url><url>
-    <loc>https://curiosity432.netlify.app/es/tags/conspiraci%C3%B3n/</loc>
-  </url><url>
     <loc>https://curiosity432.netlify.app/es/descriptions/</loc>
     <xhtml:link
                 rel="alternate"
@@ -403,19 +420,5 @@
                 hreflang="es"
                 href="https://curiosity432.netlify.app/es/descriptions/"
                 />
-  </url><url>
-    <loc>https://curiosity432.netlify.app/es/posts/9-11-explanation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://curiosity432.netlify.app/posts/9-11-explanation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://curiosity432.netlify.app/es/posts/9-11-explanation/"
-                />
-  </url><url>
-    <loc>https://curiosity432.netlify.app/es/tags/falsa-bandera/</loc>
   </url>
 </urlset>

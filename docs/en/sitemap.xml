@@ -148,6 +148,25 @@
                 href="https://curiosity432.netlify.app/posts/linux-intro/"
                 />
   </url><url>
+    <loc>https://curiosity432.netlify.app/tags/conspiracy/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curiosity432.netlify.app/posts/9-11-explanation/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://curiosity432.netlify.app/es/posts/9-11-explanation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://curiosity432.netlify.app/posts/9-11-explanation/"
+                />
+  </url><url>
+    <loc>https://curiosity432.netlify.app/tags/false-flags/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://curiosity432.netlify.app/tags/software/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -375,8 +394,6 @@
                 href="https://curiosity432.netlify.app/archives/"
                 />
   </url><url>
-    <loc>https://curiosity432.netlify.app/tags/conspiracy/</loc>
-  </url><url>
     <loc>https://curiosity432.netlify.app/descriptions/</loc>
     <xhtml:link
                 rel="alternate"
@@ -388,20 +405,6 @@
                 hreflang="en"
                 href="https://curiosity432.netlify.app/descriptions/"
                 />
-  </url><url>
-    <loc>https://curiosity432.netlify.app/posts/9-11-explanation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://curiosity432.netlify.app/es/posts/9-11-explanation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://curiosity432.netlify.app/posts/9-11-explanation/"
-                />
-  </url><url>
-    <loc>https://curiosity432.netlify.app/tags/false-flags/</loc>
   </url><url>
     <loc>https://curiosity432.netlify.app/search/</loc>
     <xhtml:link

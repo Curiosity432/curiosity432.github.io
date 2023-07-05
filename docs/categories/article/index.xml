@@ -37,6 +37,15 @@ These methods use local apps with an encrypted file, no data is shared over the 
     </item>
     
     <item>
+      <title>Explanation of 911 attacks</title>
+      <link>https://curiosity432.netlify.app/posts/9-11-explanation/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/posts/9-11-explanation/</guid>
+      <description>Intro September 11, 2001 is remembered as the biggest terrorist attack in the recent history of the 21st century, which caused a worldwide commotion and changed the economy of all countries since it occurred in Manhattan, New York in the offices of the economic center of the United States and the world. This event brought with it the increase of security measures in the fight against terrorism and the consequent wars in Afghanistan and the Middle East.</description>
+    </item>
+    
+    <item>
       <title>The best apps for manage content</title>
       <link>https://curiosity432.netlify.app/posts/content-manager/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
@@ -109,15 +118,6 @@ To observe the horizon a three-dimensional space is necessary, in higher physica
       
       <guid>https://curiosity432.netlify.app/posts/system-num/</guid>
       <description>The importance of numerical systems</description>
-    </item>
-    
-    <item>
-      <title>Explanation of 911 attacks</title>
-      <link>https://curiosity432.netlify.app/posts/9-11-explanation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://curiosity432.netlify.app/posts/9-11-explanation/</guid>
-      <description>Intro September 11, 2001 is remembered as the biggest terrorist attack in the recent history of the 21st century, which caused a worldwide commotion and changed the economy of all countries since it occurred in Manhattan, New York in the offices of the economic center of the United States and the world. This event brought with it the increase of security measures in the fight against terrorism and the consequent wars in Afghanistan and the Middle East.</description>
     </item>
     
   </channel>

@@ -37,6 +37,15 @@ Estos métodos usan aplicaciones locales con un archivo encriptado, no se compar
     </item>
     
     <item>
+      <title>Explicación de los atentados del 11S</title>
+      <link>https://curiosity432.netlify.app/es/posts/9-11-explanation/</link>
+      <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://curiosity432.netlify.app/es/posts/9-11-explanation/</guid>
+      <description>Intro El 11 de septiembre de 2001 es recordado como el mayor atentado terrorista de la historia reciente del siglo XXI, el cual causó una conmoción a nivel mundial y modificó la economía de todos los países ya que ocurrió en Manhattan, Nueva York en las oficinas del centro económico de Estados Unidos y del mundo. Este suceso trajo consigo la incrementación de medidas de seguridad en la lucha contra el terrorismo y las consiguientes guerras de Afganistán en Oriente Medio.</description>
+    </item>
+    
+    <item>
       <title>Las mejores aplicaciones para organizar contenido</title>
       <link>https://curiosity432.netlify.app/es/posts/content-manager/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
@@ -138,15 +147,6 @@ Para observar el horizonte es necesario un espacio tridimensional, en dimensione
       <guid>https://curiosity432.netlify.app/es/posts/0-test/</guid>
       <description>Este blog se está escribiendo utilizando el generador de estática web HUGO. Convierte los artículos escritos en formato markdown en una página web HTML. El formato markdown es sencillo, aquí hay una prueba:
 Para añadir metadatos tenemos que usar YAML que hace referencia al archivo config. --- author: &amp;#34;Testing&amp;#34; title: &amp;#34;Test markdown&amp;#34; date: &amp;#34;2021-01-01&amp;#34; tags: [&amp;#34;Test&amp;#34;] categories: [&amp;#34;Blog&amp;#34;] comments: false ShowToc: true TocOpen: true lang: es --- Texto con formato Títulos # Título H1 ## H2 Heading ### H3 Heading #### H4 Título #### H5 Título ##### H6 Título ###### H7 Título H1 Heading H2 Heading H3 Heading H4 Título H5 Título H6 Título H7 Título Tipo de letra *Texto en cursiva*, **texto en negrita**, ***en cursiva y negrita***.</description>
-    </item>
-    
-    <item>
-      <title>Explicación de los atentados del 11S</title>
-      <link>https://curiosity432.netlify.app/es/posts/9-11-explanation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://curiosity432.netlify.app/es/posts/9-11-explanation/</guid>
-      <description>Intro El 11 de septiembre de 2001 es recordado como el mayor atentado terrorista de la historia reciente del siglo XXI, el cual causó una conmoción a nivel mundial y modificó la economía de todos los países ya que ocurrió en Manhattan, Nueva York en las oficinas del centro económico de Estados Unidos y del mundo. Este suceso trajo consigo la incrementación de medidas de seguridad en la lucha contra el terrorismo y las consiguientes guerras de Afganistán en Oriente Medio.</description>
     </item>
     
   </channel>
