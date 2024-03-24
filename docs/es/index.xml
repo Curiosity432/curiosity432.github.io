@@ -6,18 +6,7 @@
     <description>Recent content on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Configurar gestor de contraseñas</title>
-      <link>https://curiosity432.xyz/es/posts/setup-password-manager/</link>
-      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://curiosity432.xyz/es/posts/setup-password-manager/</guid>
-      <description>Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
-No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
-Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).</description>
-    </item>
-    
+    <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Distribuciones Linux con/sin escritorio</title>
       <link>https://curiosity432.xyz/es/posts/linux-desktop-distro/</link>
@@ -137,16 +126,6 @@ Para observar el horizonte es necesario un espacio tridimensional, en dimensione
       
       <guid>https://curiosity432.xyz/es/posts/curiosity432-meaning/</guid>
       <description>Significado del nombre Curiosity432</description>
-    </item>
-    
-    <item>
-      <title>Test de markdown</title>
-      <link>https://curiosity432.xyz/es/posts/0-test/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://curiosity432.xyz/es/posts/0-test/</guid>
-      <description>Este blog se está escribiendo utilizando el generador de estática web HUGO. Convierte los artículos escritos en formato markdown en una página web HTML. El formato markdown es sencillo, aquí hay una prueba:
-Para añadir metadatos tenemos que usar YAML que hace referencia al archivo config. --- author: &amp;#34;Testing&amp;#34; title: &amp;#34;Test markdown&amp;#34; date: &amp;#34;2021-01-01&amp;#34; tags: [&amp;#34;Test&amp;#34;] categories: [&amp;#34;Blog&amp;#34;] comments: false ShowToc: true TocOpen: true lang: es --- Texto con formato Títulos # Título H1 ## H2 Heading ### H3 Heading #### H4 Título #### H5 Título ##### H6 Título ###### H7 Título H1 Heading H2 Heading H3 Heading H4 Título H5 Título H6 Título H7 Título Tipo de letra *Texto en cursiva*, **texto en negrita**, ***en cursiva y negrita***.</description>
     </item>
     
     <item>
