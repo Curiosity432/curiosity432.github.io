@@ -6,17 +6,16 @@
     <description>Recent content in Productivity on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Configurar gestor de contraseñas</title>
+      <title>Setup password manager</title>
       <link>https://curiosity432.xyz/posts/setup-password-manager/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/setup-password-manager/</guid>
-      <description>Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
-No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
-Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).</description>
+      <description>Setting up a password manager This is an article that explains how to set up a password manager in a secure and private way.
+I don&amp;rsquo;t recommend using web applications running on a server, because someone can intercept and decrypt your data and a cracker can use JS malfunctions.
+These methods use local apps with an encrypted file, no data is shared over the internet. However, if you insist on using online web-apps you should use Bitwarden or Vaultwarden (self-hosted Bitwarden).</description>
     </item>
-    
   </channel>
 </rss>

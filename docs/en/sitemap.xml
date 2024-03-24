@@ -4,6 +4,16 @@
   <url>
     <loc>https://curiosity432.xyz/categories/article/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/categories/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/categories/article/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/categories/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
@@ -20,9 +30,16 @@
   </url><url>
     <loc>https://curiosity432.xyz/tags/computing/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://curiosity432.xyz/posts/setup-password-manager/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/tags/computing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/tags/computing/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
@@ -52,6 +69,29 @@
   </url><url>
     <loc>https://curiosity432.xyz/tags/productivity/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/tags/productivity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/tags/productivity/"
+                />
+  </url><url>
+    <loc>https://curiosity432.xyz/posts/setup-password-manager/</loc>
+    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/posts/setup-password-manager/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/posts/setup-password-manager/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/tags/</loc>
     <lastmod>2023-06-11T00:00:00+00:00</lastmod>
@@ -111,17 +151,17 @@
     <loc>https://curiosity432.xyz/tags/conspiracy/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://curiosity432.xyz/posts/9-11-explanation/</loc>
+    <loc>https://curiosity432.xyz/posts/911-explanation/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/9-11-explanation/"
+                href="https://curiosity432.xyz/es/posts/911-explanation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://curiosity432.xyz/posts/9-11-explanation/"
+                href="https://curiosity432.xyz/posts/911-explanation/"
                 />
   </url><url>
     <loc>https://curiosity432.xyz/tags/false-flags/</loc>

@@ -6,15 +6,14 @@
     <description>Recent content in Sociología on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/tags/sociolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/es/tags/sociolog%C3%ADa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>El problema de los ancestros comunes de una generación</title>
       <link>https://curiosity432.xyz/es/posts/ancestor-problem/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/ancestor-problem/</guid>
       <description>Toda la generación de ancestros de una rama familiar crece exponencialmente hasta un punto en el pasado</description>
     </item>
-    
   </channel>
 </rss>

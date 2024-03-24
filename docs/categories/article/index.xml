@@ -6,119 +6,96 @@
     <description>Recent content in Article on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/categories/article/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Configurar gestor de contraseñas</title>
+      <title>Setup password manager</title>
       <link>https://curiosity432.xyz/posts/setup-password-manager/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/setup-password-manager/</guid>
-      <description>Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
-No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
-Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).</description>
+      <description>Setting up a password manager This is an article that explains how to set up a password manager in a secure and private way.
+I don&amp;rsquo;t recommend using web applications running on a server, because someone can intercept and decrypt your data and a cracker can use JS malfunctions.
+These methods use local apps with an encrypted file, no data is shared over the internet. However, if you insist on using online web-apps you should use Bitwarden or Vaultwarden (self-hosted Bitwarden).</description>
     </item>
-    
     <item>
       <title>Linux distros with/out desktops</title>
       <link>https://curiosity432.xyz/posts/linux-desktop-distro/</link>
       <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/linux-desktop-distro/</guid>
       <description>The most important Linux distributions and desktop environments</description>
     </item>
-    
     <item>
       <title>Linux introduction</title>
       <link>https://curiosity432.xyz/posts/linux-intro/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/linux-intro/</guid>
       <description>Linux for noobs</description>
     </item>
-    
     <item>
       <title>Explanation of 911 attacks</title>
-      <link>https://curiosity432.xyz/posts/9-11-explanation/</link>
+      <link>https://curiosity432.xyz/posts/911-explanation/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://curiosity432.xyz/posts/9-11-explanation/</guid>
+      <guid>https://curiosity432.xyz/posts/911-explanation/</guid>
       <description>Intro September 11, 2001 is remembered as the biggest terrorist attack in the recent history of the 21st century, which caused a worldwide commotion and changed the economy of all countries since it occurred in Manhattan, New York in the offices of the economic center of the United States and the world. This event brought with it the increase of security measures in the fight against terrorism and the consequent wars in Afghanistan and the Middle East.</description>
     </item>
-    
     <item>
       <title>The best apps for manage content</title>
       <link>https://curiosity432.xyz/posts/content-manager/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/content-manager/</guid>
       <description>Intro As living beings to obtain information, we make use of data and we store them in our mind, that is to say, we organize the data in our database (the mind) and we mold them internally, that is to say, we shape the interior or in other words, we in-form ourselves to learn and obtain knowledge. When it comes to classifying information we do the same whether in a physical environment with a folio or a digital one with an electronic device.</description>
     </item>
-    
     <item>
       <title>Sphere curvature calculator</title>
       <link>https://curiosity432.xyz/posts/sphere-curvature-calc/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/sphere-curvature-calc/</guid>
       <description>Sphere curvature calculator Scheme Ángulos: α: angle variation $\overline{\rm A_0 B_0}$. α1: angle variation$\overline{\rm A_0 G_0}$. α2: angle variation $\overline{\rm G_0 B_0}$. Distancias: d: distance from $\overline{\rm A_1 B_1}$. d1: distance from $\overline{\rm A_1 G_0}$. d2: distance from $\overline{\rm G_0 B_1}$. h0$: observer height, $\overline{\rm A_0 A_1}$. h1: target hidden height, $\overline{\rm B_0 B_1}$. R: radius of the sphere / circle. Puntos: A0: base of the observer A1: top of the observer B0: base of hidden object B1: top of hidden object G0: curvature shear, geometric limit C: center of the circle / sphere Representation of a sphere of radius (R=6371 Km) with distances and heights.</description>
     </item>
-    
     <item>
       <title>The importance of things</title>
       <link>https://curiosity432.xyz/posts/the-importance/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/the-importance/</guid>
       <description>The importance of things has nothing to do with form or content, nor with the material world around us. It doesn&amp;rsquo;t matter if the universe is infinite, flat, curved or spherical.
 The importance is the love you have for something, the value you place on it, the appreciation you have for it.
 The opinion that someone has about who created us, how the world was created, what we are, has no value if we don&amp;rsquo;t give it to them.</description>
     </item>
-    
     <item>
       <title>The problem of common ancestors of a generation</title>
       <link>https://curiosity432.xyz/posts/ancestor-problem/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/ancestor-problem/</guid>
       <description>The entire generation of ancestors in a family branch grows exponentially up to a point in the past</description>
     </item>
-    
     <item>
       <title>What is the horizon?</title>
       <link>https://curiosity432.xyz/posts/the-horizon/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/the-horizon/</guid>
       <description>Introduction. To answer this question let&amp;rsquo;s start by analyzing its etymology, the word &amp;ldquo;horizon&amp;rdquo; comes from the Ancient Greek ὁρίζων (horízōn, &amp;ldquo;definite boundary&amp;rdquo;) participle of the verb [ὁρίζω](https://en. wiktionary.org/wiki/%E1%BD%81%CF%81%CE%AF%CE%CE%B6%CF%89#Ancient_Greek &amp;ldquo;ὁρίζω&amp;rdquo;) (horízō, &amp;ldquo;to define, determine&amp;rdquo;) which comes from the noun ὅρος (hóros, &amp;ldquo;boundary&amp;rdquo;).
 To observe the horizon a three-dimensional space is necessary, in higher physical dimensions it could also occur but with another geometry. It also requires a separation of media to observe it, in which the horizon forms the base that separates both media while the vertical would be the height, in the case of the earth the horizon separates the atmosphere from the land or sea surface.</description>
     </item>
-    
     <item>
       <title>Earth models comparison</title>
       <link>https://curiosity432.xyz/posts/earth-models/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/earth-models/</guid>
       <description>Comparison between the most popular models of The Earth</description>
     </item>
-    
     <item>
       <title>Heliocentrism deception</title>
       <link>https://curiosity432.xyz/posts/heliocentrism-deception/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/heliocentrism-deception/</guid>
       <description>The biggest and longest lie in history</description>
     </item>
-    
     <item>
       <title>What is a numeral system?</title>
       <link>https://curiosity432.xyz/posts/system-num/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/system-num/</guid>
       <description>The importance of numerical systems</description>
     </item>
-    
   </channel>
 </rss>

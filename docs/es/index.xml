@@ -6,138 +6,118 @@
     <description>Recent content on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sat, 18 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurar gestor de contraseñas</title>
+      <link>https://curiosity432.xyz/es/posts/setup-password-manager/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://curiosity432.xyz/es/posts/setup-password-manager/</guid>
+      <description>Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
+No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
+Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).</description>
+    </item>
     <item>
       <title>Distribuciones Linux con/sin escritorio</title>
       <link>https://curiosity432.xyz/es/posts/linux-desktop-distro/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/linux-desktop-distro/</guid>
       <description>Las distribuciones de Linux y los entornos de escritorio más importantes</description>
     </item>
-    
     <item>
       <title>Introducción a Linux</title>
       <link>https://curiosity432.xyz/es/posts/linux-intro/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/linux-intro/</guid>
       <description>Linux para principiantes</description>
     </item>
-    
     <item>
       <title>Explicación de los atentados del 11S</title>
-      <link>https://curiosity432.xyz/es/posts/9-11-explanation/</link>
+      <link>https://curiosity432.xyz/es/posts/911-explanation/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://curiosity432.xyz/es/posts/9-11-explanation/</guid>
+      <guid>https://curiosity432.xyz/es/posts/911-explanation/</guid>
       <description>Intro El 11 de septiembre de 2001 es recordado como el mayor atentado terrorista de la historia reciente del siglo XXI, el cual causó una conmoción a nivel mundial y modificó la economía de todos los países ya que ocurrió en Manhattan, Nueva York en las oficinas del centro económico de Estados Unidos y del mundo. Este suceso trajo consigo la incrementación de medidas de seguridad en la lucha contra el terrorismo y las consiguientes guerras de Afganistán en Oriente Medio.</description>
     </item>
-    
     <item>
       <title>Las mejores aplicaciones para organizar contenido</title>
       <link>https://curiosity432.xyz/es/posts/content-manager/</link>
       <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/content-manager/</guid>
       <description>Intro Como seres vivos para obtener información, hacemos uso de datos y los alojamos en nuestra mente, es decir organizamos los datos en nuestra base de datos (la mente) y los moldeamos internamente, es decir, damos forma al interior o dicho de otra forma nos in-formamos para aprender y obtener conocimiento. A la hora de clasificar la información hacemos lo mismo ya sea en un entorno físico con un folio o uno digital con dispositivo electrónico.</description>
     </item>
-    
     <item>
       <title>¿Qué es la verdad?</title>
       <link>https://curiosity432.xyz/es/posts/the-truth/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/the-truth/</guid>
       <description>¿Qué es la verdad? Un Pa y un Jo hablando.
 Jo - ¿Si solo hay 100 personas en el mundo y todas piensan igual, es decir, solo hay una opinión siginifica eso que solo hay una única verdad, que hay más y nos las conocen o que están equivocados y no lo saben? ¿La verdad es un asunto relativo al ser, exerno o la idea de un conjunto de individuos? ¿La verdad es lo que se establece, lo que se dice, lo que se inventa, lo que se crea, lo que existe o lo que es?</description>
     </item>
-    
     <item>
       <title>Cálculo de curvatura para una esfera</title>
       <link>https://curiosity432.xyz/es/posts/sphere-curvature-calc/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/sphere-curvature-calc/</guid>
       <description>Cálculo curvatura en una esfera Esquema Ángulos: α: variación angular $\overline{\rm A_0 B_0}$. α1: variación angular $\overline{\rm A_0 G_0}$. α2: variación angular $\overline{\rm G_0 B_0}$. Distancias: d: distancia desde $\overline{\rm A_1 B_1}$. d1: distancia desde $\overline{\rm A_1 G_0}$. d2: distancia desde $\overline{\rm G_0 B_1}$. h0$: altura del observador, $\overline{\rm A_0 A_1}$. h1: altura oculta por curvatura, $\overline{\rm B_0 B_1}$. R: radio del círculo / esfera. Puntos: A0: base del observador. A1: parte alta del observador.</description>
     </item>
-    
     <item>
       <title>La importancia de las cosas</title>
       <link>https://curiosity432.xyz/es/posts/the-importance/</link>
       <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/the-importance/</guid>
       <description>La importancia de las cosas no tiene nada que ver con la forma ni el contenido estas ni con el mundo material que nos rodea. Da igual si el universo es infinito, plano curvo o esférico.
 La importancia es el amor que se le tenga a algo, el valor que se le dé, el aprecio que se desprenda.
 La opinión que tenga alguien sobre quién nos creo, como se creó el mundo, que somos no tiene valor sino se lo damos.</description>
     </item>
-    
     <item>
       <title>¿Qué es el horizonte?</title>
       <link>https://curiosity432.xyz/es/posts/the-horizon/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/the-horizon/</guid>
       <description>Introducción Para responder a esta pregunta empecemos analizando su etimología, la palabra &amp;ldquo;horizonte&amp;rdquo; proviene del Antiguo griego ὁρίζων (horízōn, &amp;ldquo;límite definido&amp;rdquo;) participio del verbo ὁρίζω (horízō, &amp;ldquo;definir, determinar”) que proviene del sustantivo ὅρος (hóros, “límite”).
 Para observar el horizonte es necesario un espacio tridimensional, en dimensiones físicas superiores también podría darse pero con otra geometría. También se precisa de una separación de medios para observarlo, en la cual el horizonte forma la base que separa ambos medios mientras la vertical sería la altura, en el caso de la tierra el horizonte separa la atmósfera de la superficie terrestre o mar.</description>
     </item>
-    
     <item>
       <title>El problema de los ancestros comunes de una generación</title>
       <link>https://curiosity432.xyz/es/posts/ancestor-problem/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/ancestor-problem/</guid>
       <description>Toda la generación de ancestros de una rama familiar crece exponencialmente hasta un punto en el pasado</description>
     </item>
-    
     <item>
       <title>Comparación de los modelos de La Tierra</title>
       <link>https://curiosity432.xyz/es/posts/earth-models/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/earth-models/</guid>
       <description>Comparación entre los modelos terrestres más conocidos</description>
     </item>
-    
     <item>
       <title>El engaño Heliocéntrico</title>
       <link>https://curiosity432.xyz/es/posts/heliocentrism-deception/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/heliocentrism-deception/</guid>
       <description>El mayor y más longevo engaño de la historia</description>
     </item>
-    
     <item>
       <title>¿Qué es un sistema de numeración?</title>
       <link>https://curiosity432.xyz/es/posts/system-num/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/system-num/</guid>
       <description>La importancia de los sistemas numéricos</description>
     </item>
-    
     <item>
       <title>Curiosity432, su significado</title>
       <link>https://curiosity432.xyz/es/posts/curiosity432-meaning/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/curiosity432-meaning/</guid>
       <description>Significado del nombre Curiosity432</description>
     </item>
-    
     <item>
       <title>Acerca de mí</title>
       <link>https://curiosity432.xyz/es/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/about/</guid>
       <description>archives</description>
     </item>
-    
-    
-    
   </channel>
 </rss>

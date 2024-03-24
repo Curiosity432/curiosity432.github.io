@@ -6,43 +6,36 @@
     <description>Recent content in Tierra on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/tags/tierra/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/es/tags/tierra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cálculo de curvatura para una esfera</title>
       <link>https://curiosity432.xyz/es/posts/sphere-curvature-calc/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/sphere-curvature-calc/</guid>
       <description>Cálculo curvatura en una esfera Esquema Ángulos: α: variación angular $\overline{\rm A_0 B_0}$. α1: variación angular $\overline{\rm A_0 G_0}$. α2: variación angular $\overline{\rm G_0 B_0}$. Distancias: d: distancia desde $\overline{\rm A_1 B_1}$. d1: distancia desde $\overline{\rm A_1 G_0}$. d2: distancia desde $\overline{\rm G_0 B_1}$. h0$: altura del observador, $\overline{\rm A_0 A_1}$. h1: altura oculta por curvatura, $\overline{\rm B_0 B_1}$. R: radio del círculo / esfera. Puntos: A0: base del observador. A1: parte alta del observador.</description>
     </item>
-    
     <item>
       <title>¿Qué es el horizonte?</title>
       <link>https://curiosity432.xyz/es/posts/the-horizon/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/the-horizon/</guid>
       <description>Introducción Para responder a esta pregunta empecemos analizando su etimología, la palabra &amp;ldquo;horizonte&amp;rdquo; proviene del Antiguo griego ὁρίζων (horízōn, &amp;ldquo;límite definido&amp;rdquo;) participio del verbo ὁρίζω (horízō, &amp;ldquo;definir, determinar”) que proviene del sustantivo ὅρος (hóros, “límite”).
 Para observar el horizonte es necesario un espacio tridimensional, en dimensiones físicas superiores también podría darse pero con otra geometría. También se precisa de una separación de medios para observarlo, en la cual el horizonte forma la base que separa ambos medios mientras la vertical sería la altura, en el caso de la tierra el horizonte separa la atmósfera de la superficie terrestre o mar.</description>
     </item>
-    
     <item>
       <title>Comparación de los modelos de La Tierra</title>
       <link>https://curiosity432.xyz/es/posts/earth-models/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/earth-models/</guid>
       <description>Comparación entre los modelos terrestres más conocidos</description>
     </item>
-    
     <item>
       <title>El engaño Heliocéntrico</title>
       <link>https://curiosity432.xyz/es/posts/heliocentrism-deception/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/heliocentrism-deception/</guid>
       <description>El mayor y más longevo engaño de la historia</description>
     </item>
-    
   </channel>
 </rss>

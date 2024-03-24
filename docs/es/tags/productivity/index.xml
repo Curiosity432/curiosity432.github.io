@@ -6,17 +6,16 @@
     <description>Recent content in Productivity on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/es/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/es/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Configurar gestor de contraseñas</title>
       <link>https://curiosity432.xyz/es/posts/setup-password-manager/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/es/posts/setup-password-manager/</guid>
       <description>Configurar un administrador de contraseñas Este es un artículo que explica cómo configurar un administrador de contraseñas de forma segura y privada.
 No recomiendo usar aplicaciones web que se ejecutan en un servidor, porque alguien puede interceptar y descifrar sus datos y un cracker puede usar fallas de JS.
 Estos métodos usan aplicaciones locales con un archivo encriptado, no se comparten datos a través de Internet. Sin embargo, si insiste en usar aplicaciones web en línea, debe usar Bitwarden o Vaultwarden (autohospedado Guardabits).</description>
     </item>
-    
   </channel>
 </rss>

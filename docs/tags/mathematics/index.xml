@@ -6,15 +6,14 @@
     <description>Recent content in Mathematics on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://curiosity432.xyz/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://curiosity432.xyz/tags/mathematics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a numeral system?</title>
       <link>https://curiosity432.xyz/posts/system-num/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://curiosity432.xyz/posts/system-num/</guid>
       <description>The importance of numerical systems</description>
     </item>
-    
   </channel>
 </rss>
