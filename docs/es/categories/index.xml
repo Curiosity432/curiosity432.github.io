@@ -9,24 +9,17 @@
     <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://curiosity432.xyz/es/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Article</title>
-      <link>https://curiosity432.xyz/es/categories/article/</link>
+      <title>Writes</title>
+      <link>https://curiosity432.xyz/es/categories/writes/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://curiosity432.xyz/es/categories/article/</guid>
+      <guid>https://curiosity432.xyz/es/categories/writes/</guid>
       <description></description>
     </item>
     <item>
       <title>Explicación</title>
       <link>https://curiosity432.xyz/es/categories/explicaci%C3%B3n/</link>
-      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://curiosity432.xyz/es/categories/explicaci%C3%B3n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Artículo</title>
-      <link>https://curiosity432.xyz/es/categories/art%C3%ADculo/</link>
       <pubDate>Thu, 28 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://curiosity432.xyz/es/categories/art%C3%ADculo/</guid>
+      <guid>https://curiosity432.xyz/es/categories/explicaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
@@ -34,6 +27,13 @@
       <link>https://curiosity432.xyz/es/categories/escrito/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://curiosity432.xyz/es/categories/escrito/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teoría</title>
+      <link>https://curiosity432.xyz/es/categories/teor%C3%ADa/</link>
+      <pubDate>Tue, 12 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://curiosity432.xyz/es/categories/teor%C3%ADa/</guid>
       <description></description>
     </item>
   </channel>

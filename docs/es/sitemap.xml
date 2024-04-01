@@ -2,21 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://curiosity432.xyz/es/categories/article/</loc>
+    <loc>https://curiosity432.xyz/es/posts/road-to-greatness/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://curiosity432.xyz/categories/article/"
+                href="https://curiosity432.xyz/posts/road-to-greatness/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://curiosity432.xyz/es/categories/article/"
+                href="https://curiosity432.xyz/es/posts/road-to-greatness/"
                 />
-  </url><url>
-    <loc>https://curiosity432.xyz/es/posts/road-to-greatness/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/es/categories/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
@@ -43,9 +40,6 @@
                 hreflang="es-ES"
                 href="https://curiosity432.xyz/es/"
                 />
-  </url><url>
-    <loc>https://curiosity432.xyz/es/categories/explicaci%C3%B3n/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/es/tags/poetry/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
@@ -76,10 +70,23 @@
                 href="https://curiosity432.xyz/es/tags/"
                 />
   </url><url>
-    <loc>https://curiosity432.xyz/es/categories/art%C3%ADculo/</loc>
-    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <loc>https://curiosity432.xyz/es/categories/writes/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/categories/writes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/categories/writes/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/es/tags/conspiraci%C3%B3n/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curiosity432.xyz/es/categories/explicaci%C3%B3n/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/es/posts/911-explanation/</loc>
@@ -126,6 +133,16 @@
   </url><url>
     <loc>https://curiosity432.xyz/es/categories/escrito/</loc>
     <lastmod>2022-01-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/categories/escrito/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/categories/escrito/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/es/tags/filosof%C3%ADa/</loc>
     <lastmod>2022-01-08T00:00:00+00:00</lastmod>
@@ -244,6 +261,9 @@
                 />
   </url><url>
     <loc>https://curiosity432.xyz/es/tags/matem%C3%A1ticas/</loc>
+    <lastmod>2021-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curiosity432.xyz/es/categories/teor%C3%ADa/</loc>
     <lastmod>2021-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/es/about/</loc>
