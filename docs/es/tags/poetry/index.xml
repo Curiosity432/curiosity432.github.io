@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Article on Curiosity432 Blog</title>
-    <link>https://curiosity432.xyz/es/categories/article/</link>
-    <description>Recent content in Article on Curiosity432 Blog</description>
+    <title>Poetry on Curiosity432 Blog</title>
+    <link>https://curiosity432.xyz/es/tags/poetry/</link>
+    <description>Recent content in Poetry on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://curiosity432.xyz/es/categories/article/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://curiosity432.xyz/es/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Camino hacia la grandeza</title>
       <link>https://curiosity432.xyz/es/posts/road-to-greatness/</link>

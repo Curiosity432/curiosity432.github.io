@@ -4,6 +4,16 @@
   <url>
     <loc>https://curiosity432.xyz/categories/article/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/categories/article/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/categories/article/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/categories/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
@@ -77,32 +87,6 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://curiosity432.xyz/tags/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/tags/software/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/tags/software/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/tags/software/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/posts/content-manager/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/content-manager/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/posts/content-manager/"
                 />
   </url><url>
     <loc>https://curiosity432.xyz/tags/earth/</loc>
