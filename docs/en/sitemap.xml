@@ -2,19 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://curiosity432.xyz/posts/road-to-greatness/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/road-to-greatness/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/posts/road-to-greatness/"
-                />
-  </url><url>
     <loc>https://curiosity432.xyz/categories/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -55,6 +42,19 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://curiosity432.xyz/posts/"
+                />
+  </url><url>
+    <loc>https://curiosity432.xyz/posts/road-to-greatness/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/posts/road-to-greatness/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/posts/road-to-greatness/"
                 />
   </url><url>
     <loc>https://curiosity432.xyz/tags/</loc>
