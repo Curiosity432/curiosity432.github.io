@@ -41,7 +41,10 @@
                 href="https://curiosity432.xyz/es/"
                 />
   </url><url>
-    <loc>https://curiosity432.xyz/es/tags/poetry/</loc>
+    <loc>https://curiosity432.xyz/es/categories/escrito/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curiosity432.xyz/es/tags/poes%C3%ADa/</loc>
     <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/es/posts/</loc>
@@ -68,19 +71,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://curiosity432.xyz/es/tags/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/es/categories/writes/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/categories/writes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/categories/writes/"
                 />
   </url><url>
     <loc>https://curiosity432.xyz/es/tags/conspiraci%C3%B3n/</loc>
@@ -129,19 +119,6 @@
                 rel="alternate"
                 hreflang="es-ES"
                 href="https://curiosity432.xyz/es/posts/sphere-curvature-calc/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/es/categories/escrito/</loc>
-    <lastmod>2022-01-08T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/categories/escrito/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/categories/escrito/"
                 />
   </url><url>
     <loc>https://curiosity432.xyz/es/tags/filosof%C3%ADa/</loc>
