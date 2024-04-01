@@ -3,20 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://curiosity432.xyz/categories/article/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/categories/article/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/categories/article/"
-                />
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/categories/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
@@ -28,21 +18,11 @@
                 href="https://curiosity432.xyz/categories/"
                 />
   </url><url>
-    <loc>https://curiosity432.xyz/tags/computing/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/tags/computing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/tags/computing/"
-                />
+    <loc>https://curiosity432.xyz/tags/conspiracy/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
@@ -54,101 +34,7 @@
                 href="https://curiosity432.xyz/"
                 />
   </url><url>
-    <loc>https://curiosity432.xyz/posts/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/posts/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/tags/productivity/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/tags/productivity/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/tags/productivity/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/posts/setup-password-manager/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/setup-password-manager/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/posts/setup-password-manager/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/tags/</loc>
-    <lastmod>2023-06-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/tags/"
-                />
-  </url><url>
     <loc>https://curiosity432.xyz/categories/explanation/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://curiosity432.xyz/tags/linux/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/tags/linux/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/posts/linux-desktop-distro/</loc>
-    <lastmod>2022-07-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/linux-desktop-distro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/posts/linux-desktop-distro/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/posts/linux-intro/</loc>
-    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://curiosity432.xyz/es/posts/linux-intro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://curiosity432.xyz/posts/linux-intro/"
-                />
-  </url><url>
-    <loc>https://curiosity432.xyz/tags/conspiracy/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://curiosity432.xyz/posts/911-explanation/</loc>
@@ -166,6 +52,32 @@
   </url><url>
     <loc>https://curiosity432.xyz/tags/false-flags/</loc>
     <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://curiosity432.xyz/posts/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/posts/"
+                />
+  </url><url>
+    <loc>https://curiosity432.xyz/tags/</loc>
+    <lastmod>2022-04-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://curiosity432.xyz/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://curiosity432.xyz/tags/"
+                />
   </url><url>
     <loc>https://curiosity432.xyz/tags/software/</loc>
     <lastmod>2022-04-12T00:00:00+00:00</lastmod>

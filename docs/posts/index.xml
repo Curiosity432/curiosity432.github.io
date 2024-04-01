@@ -6,31 +6,8 @@
     <description>Recent content in Posts on Curiosity432 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 Apr 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://curiosity432.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Setup password manager</title>
-      <link>https://curiosity432.xyz/posts/setup-password-manager/</link>
-      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://curiosity432.xyz/posts/setup-password-manager/</guid>
-      <description>Setting up a password manager This is an article that explains how to set up a password manager in a secure and private way.
-I don&amp;rsquo;t recommend using web applications running on a server, because someone can intercept and decrypt your data and a cracker can use JS malfunctions.
-These methods use local apps with an encrypted file, no data is shared over the internet. However, if you insist on using online web-apps you should use Bitwarden or Vaultwarden (self-hosted Bitwarden).</description>
-    </item>
-    <item>
-      <title>Linux distros with/out desktops</title>
-      <link>https://curiosity432.xyz/posts/linux-desktop-distro/</link>
-      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://curiosity432.xyz/posts/linux-desktop-distro/</guid>
-      <description>The most important Linux distributions and desktop environments</description>
-    </item>
-    <item>
-      <title>Linux introduction</title>
-      <link>https://curiosity432.xyz/posts/linux-intro/</link>
-      <pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://curiosity432.xyz/posts/linux-intro/</guid>
-      <description>Linux for noobs</description>
-    </item>
     <item>
       <title>Explanation of 911 attacks</title>
       <link>https://curiosity432.xyz/posts/911-explanation/</link>
