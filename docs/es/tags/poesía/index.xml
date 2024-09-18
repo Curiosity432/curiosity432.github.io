@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Poesía on Curiosity432 Blog</title>
+    <title>Poesía on Curiosity432</title>
     <link>https://curiosity432.xyz/es/tags/poes%C3%ADa/</link>
-    <description>Recent content in Poesía on Curiosity432 Blog</description>
+    <description>Recent content in Poesía on Curiosity432</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -13,9 +13,24 @@
       <link>https://curiosity432.xyz/es/posts/road-to-greatness/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://curiosity432.xyz/es/posts/road-to-greatness/</guid>
-      <description>Poem Las distracciones que nos rodena son cada vez mayores, vivimos presos como ratones de laboratorio, sometidos a inyecciones y una constante invasión de publicaciones, que nos crean falsas ilusiones, y nos impiden sacar a la luz, lo que llevamos dentro de nuestros corazones.
-Por ello, no te dejes guiar por las acciones de los demás, porque el ser humano no está programado para seguir instrucciones.
-No somos clones ni tenemos limitaciones, somos seres con dones, que trascienden las barreras del tiempo, que desafían las normas del espacio, que encienden la llama de la creatividad, y alimentan el fuego de la esperanza.</description>
+      <description>&lt;h1 id=&#34;poem&#34;&gt;Poem&lt;/h1&gt;
+&lt;p&gt;Las distracciones que nos rodena son cada vez mayores,
+vivimos presos como ratones de laboratorio,
+sometidos a inyecciones
+y una constante invasión de publicaciones,
+que nos crean falsas ilusiones,
+y nos impiden sacar a la luz,
+lo que llevamos dentro de nuestros corazones.&lt;/p&gt;
+&lt;p&gt;Por ello,
+no te dejes guiar por las acciones de los demás,
+porque el ser humano no está programado
+para seguir instrucciones.&lt;/p&gt;
+&lt;p&gt;No somos clones ni tenemos limitaciones,
+somos seres con dones,
+que trascienden las barreras del tiempo,
+que desafían las normas del espacio,
+que encienden la llama de la creatividad,
+y alimentan el fuego de la esperanza.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

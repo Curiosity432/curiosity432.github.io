@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Earth on Curiosity432 Blog</title>
+    <title>Earth on Curiosity432</title>
     <link>https://curiosity432.xyz/tags/earth/</link>
-    <description>Recent content in Earth on Curiosity432 Blog</description>
+    <description>Recent content in Earth on Curiosity432</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate>
@@ -13,15 +13,49 @@
       <link>https://curiosity432.xyz/posts/sphere-curvature-calc/</link>
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://curiosity432.xyz/posts/sphere-curvature-calc/</guid>
-      <description>Sphere curvature calculator Scheme Ángulos: α: angle variation $\overline{\rm A_0 B_0}$. α1: angle variation$\overline{\rm A_0 G_0}$. α2: angle variation $\overline{\rm G_0 B_0}$. Distancias: d: distance from $\overline{\rm A_1 B_1}$. d1: distance from $\overline{\rm A_1 G_0}$. d2: distance from $\overline{\rm G_0 B_1}$. h0$: observer height, $\overline{\rm A_0 A_1}$. h1: target hidden height, $\overline{\rm B_0 B_1}$. R: radius of the sphere / circle. Puntos: A0: base of the observer A1: top of the observer B0: base of hidden object B1: top of hidden object G0: curvature shear, geometric limit C: center of the circle / sphere Representation of a sphere of radius (R=6371 Km) with distances and heights.</description>
+      <description>&lt;h1 id=&#34;sphere-curvature-calculator&#34;&gt;Sphere curvature calculator&lt;/h1&gt;
+&lt;h2 id=&#34;scheme&#34;&gt;Scheme&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://curiosity432.xyz/img/calc-curvature/Earth-calc.png&#34; alt=&#34;&#34;  /&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ángulos:
+&lt;ul&gt;
+&lt;li&gt;α: angle variation $\overline{\rm A_0 B_0}$.&lt;/li&gt;
+&lt;li&gt;α1: angle variation$\overline{\rm A_0 G_0}$.&lt;/li&gt;
+&lt;li&gt;α2: angle variation $\overline{\rm G_0 B_0}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Distancias:
+&lt;ul&gt;
+&lt;li&gt;d: distance from $\overline{\rm A_1 B_1}$.&lt;/li&gt;
+&lt;li&gt;d1: distance from  $\overline{\rm A_1 G_0}$.&lt;/li&gt;
+&lt;li&gt;d2: distance from  $\overline{\rm G_0 B_1}$.&lt;/li&gt;
+&lt;li&gt;h0$: observer height, $\overline{\rm A_0 A_1}$.&lt;/li&gt;
+&lt;li&gt;h1: target hidden height, $\overline{\rm B_0 B_1}$.&lt;/li&gt;
+&lt;li&gt;R: radius of the sphere / circle.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Puntos:
+&lt;ul&gt;
+&lt;li&gt;A0: base of the observer&lt;/li&gt;
+&lt;li&gt;A1: top of the observer&lt;/li&gt;
+&lt;li&gt;B0: base of hidden object&lt;/li&gt;
+&lt;li&gt;B1: top of hidden object&lt;/li&gt;
+&lt;li&gt;G0: curvature shear, geometric limit&lt;/li&gt;
+&lt;li&gt;C: center of the circle / sphere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Representation of a sphere of radius (R=6371 Km) with distances and heights.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is the horizon?</title>
       <link>https://curiosity432.xyz/posts/the-horizon/</link>
       <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://curiosity432.xyz/posts/the-horizon/</guid>
-      <description>Introduction. To answer this question let&amp;rsquo;s start by analyzing its etymology, the word &amp;ldquo;horizon&amp;rdquo; comes from the Ancient Greek ὁρίζων (horízōn, &amp;ldquo;definite boundary&amp;rdquo;) participle of the verb [ὁρίζω](https://en. wiktionary.org/wiki/%E1%BD%81%CF%81%CE%AF%CE%CE%B6%CF%89#Ancient_Greek &amp;ldquo;ὁρίζω&amp;rdquo;) (horízō, &amp;ldquo;to define, determine&amp;rdquo;) which comes from the noun ὅρος (hóros, &amp;ldquo;boundary&amp;rdquo;).
-To observe the horizon a three-dimensional space is necessary, in higher physical dimensions it could also occur but with another geometry. It also requires a separation of media to observe it, in which the horizon forms the base that separates both media while the vertical would be the height, in the case of the earth the horizon separates the atmosphere from the land or sea surface.</description>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction.&lt;/h1&gt;
+&lt;p&gt;To answer this question let&amp;rsquo;s start by analyzing its etymology, the word &amp;ldquo;horizon&amp;rdquo; comes from the Ancient Greek &lt;em&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E1%BD%81%CF%81%CE%AF%CE%B6%CF%89%CE%BD#Ancient_Greek&#34; title=&#34;ὁρίζζων&#34;&gt;ὁρίζων&lt;/a&gt;&lt;/em&gt; (horízōn, &amp;ldquo;definite boundary&amp;rdquo;) participle of the verb &lt;em&gt;[ὁρίζω](https://en. wiktionary.org/wiki/%E1%BD%81%CF%81%CE%AF%CE%CE%B6%CF%89#Ancient_Greek &amp;ldquo;ὁρίζω&amp;rdquo;)&lt;/em&gt; (horízō, &amp;ldquo;to define, determine&amp;rdquo;) which comes from the noun &lt;em&gt;&lt;a href=&#34;https://en.wiktionary.org/wiki/%E1%BD%85%CF%81%CE%BF%CF%82#Ancient_Greek&#34; title=&#34;ὅρος&#34;&gt;ὅρος&lt;/a&gt;&lt;/em&gt; (hóros, &amp;ldquo;boundary&amp;rdquo;).&lt;/p&gt;
+&lt;p&gt;To observe the horizon a three-dimensional space is necessary, in higher physical dimensions it could also occur but with another geometry. It also requires a separation of media to observe it, in which the horizon forms the base that separates both media while the vertical would be the height, in the case of the earth the horizon separates the atmosphere from the land or sea surface.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Earth models comparison</title>
