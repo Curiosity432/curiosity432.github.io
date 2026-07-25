@@ -1,0 +1,16 @@
+# Ignore everything
+# /*
+.github/
+content/
+img/
+scripts/
+static/
+themes/
+.hugo_build.lock
+.nojekyll
+hugo.yml
+BUILD.md
+
+# Allow the "/docs/" directory
+#!/public/
+!/docs/

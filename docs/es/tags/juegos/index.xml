@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Juegos on Curiosity432</title>
+    <link>http://localhost:1313/es/tags/juegos/</link>
+    <description>Recent content in Juegos on Curiosity432</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/tags/juegos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fortnite historia</title>
+      <link>http://localhost:1313/es/posts/fortnite-story/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/posts/fortnite-story/</guid>
+      <description>&lt;p&gt;Fortnite fue un juego lanzado a finales de julio 2017, su nombre original era &lt;strong&gt;Fortnite: Save the World&lt;/strong&gt; con pago para el acceso anticipado con planes para ser free-to-play (gratutito) lo que sería &lt;strong&gt;Fortnite: Battle Royale&lt;/strong&gt;. Su primer anuncio fue en 2012 .&lt;/p&gt;
+&lt;h2 id=&#34;fortnite-save-the-world&#34;&gt;Fortnite: Save the World&lt;/h2&gt;
+&lt;p&gt;Un día, el 98% de la población humana de la Tierra desapareció repentinamente, y los humanos restantes se encontraron con los cielos cubiertos de densas nubes, creando tormentas caóticas que dejaban caer husks: criaturas humanoides parecidas a zombis que atacaban a los vivos. Los supervivientes encontraron la forma de construir &amp;ldquo;escudos de tormenta&amp;rdquo;, un campo que despejaba las nubes de tormenta inmediatamente por encima y reducía los ataques de los husks, y los utilizaron para establecer bases de supervivientes por todo el mundo. El jugador es el comandante de una de estas bases, encargado de salir del escudo de la tormenta para encontrar recursos, supervivientes y otros aliados que les ayuden a ampliar su escudo de la tormenta y encontrar una forma de devolver la Tierra a su estado normal.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gaming on Curiosity432</title>
+    <link>http://localhost:1313/tags/gaming/</link>
+    <description>Recent content in Gaming on Curiosity432</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fortnite story</title>
+      <link>http://localhost:1313/posts/fortnite-story/</link>
+      <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fortnite-story/</guid>
+      <description>&lt;p&gt;Fortnite was a game released at the end of July 2017, its original name was &lt;strong&gt;Fortnite: Save the World&lt;/strong&gt; with payment for early access with plans to be free-to-play what would be &lt;strong&gt;Fortnite: Battle Royale&lt;/strong&gt;. Its first announcement was in 2012 .&lt;/p&gt;
+&lt;h2 id=&#34;fortnite-save-the-world&#34;&gt;Fortnite: Save the World&lt;/h2&gt;
+&lt;p&gt;One day, 98% of Earth&amp;rsquo;s human population suddenly disappeared, and the remaining humans found the skies covered with dense clouds, creating chaotic storms that dropped husks: zombie-like humanoid creatures that attacked the living. Survivors found a way to build &amp;ldquo;storm shields,&amp;rdquo; a field that cleared the storm clouds immediately above and reduced husk attacks, and used them to establish survivor bases around the world. The player is the commander of one of these bases, tasked with breaking out of the storm shield to find resources, survivors, and other allies to help them expand their storm shield and find a way to return Earth to its normal state.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
